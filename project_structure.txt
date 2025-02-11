@@ -1,0 +1,2188 @@
+├── .
+│   ├── .cursor
+│   │   ├── project_structure
+│   │   ├── project_structure.json
+│   │   ├── project_structure.txt
+│   │   ├── project_tree.py
+│   │   ├── rules
+│   ├── .devcontainer
+│   │   ├── Dockerfile
+│   │   ├── Dockerfile0
+│   │   ├── common-debian.sh
+│   │   ├── devcontainer.json
+│   ├── .pytest_cache
+│   │   ├── CACHEDIR.TAG
+│   │   ├── README.md
+│   │   ├── v
+│   │   │   ├── cache
+│   │   │   │   ├── lastfailed
+│   │   │   │   ├── nodeids
+│   │   │   │   ├── stepwise
+│   ├── README.md
+│   ├── coreforecast
+│   │   ├── .pytest_cache
+│   │   │   ├── CACHEDIR.TAG
+│   │   │   ├── README.md
+│   │   │   ├── v
+│   │   │   │   ├── cache
+│   │   │   │   │   ├── lastfailed
+│   │   │   │   │   ├── nodeids
+│   │   │   │   │   ├── stepwise
+│   │   ├── .vscode
+│   │   │   ├── c_cpp_properties.json
+│   │   │   ├── settings.json
+│   │   ├── CMakeLists.txt
+│   │   ├── CODE_OF_CONDUCT.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── docs
+│   │   │   ├── mintlify
+│   │   │   │   ├── dark.png
+│   │   │   │   ├── favicon.svg
+│   │   │   │   ├── light.png
+│   │   │   │   ├── mint.json
+│   │   │   ├── to_mdx.py
+│   │   ├── include
+│   │   │   ├── coreforecast
+│   │   │   │   ├── brent.h
+│   │   │   │   ├── common.h
+│   │   │   │   ├── diff.h
+│   │   │   │   ├── expanding.h
+│   │   │   │   ├── exponentially_weighted.h
+│   │   │   │   ├── grouped_array_functions.h
+│   │   │   │   ├── kpss.h
+│   │   │   │   ├── lag.h
+│   │   │   │   ├── rolling.h
+│   │   │   │   ├── scalers.h
+│   │   │   │   ├── seasonal.h
+│   │   │   │   ├── stats.h
+│   │   ├── opensource_libs
+│   │   │   ├── eigen
+│   │   │   │   ├── .hgeol
+│   │   │   │   ├── CMakeLists.txt
+│   │   │   │   ├── COPYING.APACHE
+│   │   │   │   ├── COPYING.BSD
+│   │   │   │   ├── COPYING.GPL
+│   │   │   │   ├── COPYING.LGPL
+│   │   │   │   ├── COPYING.MINPACK
+│   │   │   │   ├── COPYING.MPL2
+│   │   │   │   ├── COPYING.README
+│   │   │   │   ├── CTestConfig.cmake
+│   │   │   │   ├── CTestCustom.cmake.in
+│   │   │   │   ├── Eigen
+│   │   │   │   │   ├── Cholesky
+│   │   │   │   │   ├── CholmodSupport
+│   │   │   │   │   ├── Core
+│   │   │   │   │   ├── Dense
+│   │   │   │   │   ├── Eigen
+│   │   │   │   │   ├── Eigenvalues
+│   │   │   │   │   ├── Geometry
+│   │   │   │   │   ├── Householder
+│   │   │   │   │   ├── IterativeLinearSolvers
+│   │   │   │   │   ├── Jacobi
+│   │   │   │   │   ├── KLUSupport
+│   │   │   │   │   ├── LU
+│   │   │   │   │   ├── MetisSupport
+│   │   │   │   │   ├── OrderingMethods
+│   │   │   │   │   ├── PaStiXSupport
+│   │   │   │   │   ├── PardisoSupport
+│   │   │   │   │   ├── QR
+│   │   │   │   │   ├── QtAlignedMalloc
+│   │   │   │   │   ├── SPQRSupport
+│   │   │   │   │   ├── SVD
+│   │   │   │   │   ├── Sparse
+│   │   │   │   │   ├── SparseCholesky
+│   │   │   │   │   ├── SparseCore
+│   │   │   │   │   ├── SparseLU
+│   │   │   │   │   ├── SparseQR
+│   │   │   │   │   ├── StdDeque
+│   │   │   │   │   ├── StdList
+│   │   │   │   │   ├── StdVector
+│   │   │   │   │   ├── SuperLUSupport
+│   │   │   │   │   ├── UmfPackSupport
+│   │   │   │   │   ├── src
+│   │   │   │   │   │   ├── Cholesky
+│   │   │   │   │   │   │   ├── LDLT.h
+│   │   │   │   │   │   │   ├── LLT.h
+│   │   │   │   │   │   │   ├── LLT_LAPACKE.h
+│   │   │   │   │   │   ├── CholmodSupport
+│   │   │   │   │   │   │   ├── CholmodSupport.h
+│   │   │   │   │   │   ├── Core
+│   │   │   │   │   │   │   ├── ArithmeticSequence.h
+│   │   │   │   │   │   │   ├── Array.h
+│   │   │   │   │   │   │   ├── ArrayBase.h
+│   │   │   │   │   │   │   ├── ArrayWrapper.h
+│   │   │   │   │   │   │   ├── Assign.h
+│   │   │   │   │   │   │   ├── AssignEvaluator.h
+│   │   │   │   │   │   │   ├── Assign_MKL.h
+│   │   │   │   │   │   │   ├── BandMatrix.h
+│   │   │   │   │   │   │   ├── Block.h
+│   │   │   │   │   │   │   ├── BooleanRedux.h
+│   │   │   │   │   │   │   ├── CommaInitializer.h
+│   │   │   │   │   │   │   ├── ConditionEstimator.h
+│   │   │   │   │   │   │   ├── CoreEvaluators.h
+│   │   │   │   │   │   │   ├── CoreIterators.h
+│   │   │   │   │   │   │   ├── CwiseBinaryOp.h
+│   │   │   │   │   │   │   ├── CwiseNullaryOp.h
+│   │   │   │   │   │   │   ├── CwiseTernaryOp.h
+│   │   │   │   │   │   │   ├── CwiseUnaryOp.h
+│   │   │   │   │   │   │   ├── CwiseUnaryView.h
+│   │   │   │   │   │   │   ├── DenseBase.h
+│   │   │   │   │   │   │   ├── DenseCoeffsBase.h
+│   │   │   │   │   │   │   ├── DenseStorage.h
+│   │   │   │   │   │   │   ├── Diagonal.h
+│   │   │   │   │   │   │   ├── DiagonalMatrix.h
+│   │   │   │   │   │   │   ├── DiagonalProduct.h
+│   │   │   │   │   │   │   ├── Dot.h
+│   │   │   │   │   │   │   ├── EigenBase.h
+│   │   │   │   │   │   │   ├── ForceAlignedAccess.h
+│   │   │   │   │   │   │   ├── Fuzzy.h
+│   │   │   │   │   │   │   ├── GeneralProduct.h
+│   │   │   │   │   │   │   ├── GenericPacketMath.h
+│   │   │   │   │   │   │   ├── GlobalFunctions.h
+│   │   │   │   │   │   │   ├── IO.h
+│   │   │   │   │   │   │   ├── IndexedView.h
+│   │   │   │   │   │   │   ├── Inverse.h
+│   │   │   │   │   │   │   ├── Map.h
+│   │   │   │   │   │   │   ├── MapBase.h
+│   │   │   │   │   │   │   ├── MathFunctions.h
+│   │   │   │   │   │   │   ├── MathFunctionsImpl.h
+│   │   │   │   │   │   │   ├── Matrix.h
+│   │   │   │   │   │   │   ├── MatrixBase.h
+│   │   │   │   │   │   │   ├── NestByValue.h
+│   │   │   │   │   │   │   ├── NoAlias.h
+│   │   │   │   │   │   │   ├── NumTraits.h
+│   │   │   │   │   │   │   ├── PartialReduxEvaluator.h
+│   │   │   │   │   │   │   ├── PermutationMatrix.h
+│   │   │   │   │   │   │   ├── PlainObjectBase.h
+│   │   │   │   │   │   │   ├── Product.h
+│   │   │   │   │   │   │   ├── ProductEvaluators.h
+│   │   │   │   │   │   │   ├── Random.h
+│   │   │   │   │   │   │   ├── Redux.h
+│   │   │   │   │   │   │   ├── Ref.h
+│   │   │   │   │   │   │   ├── Replicate.h
+│   │   │   │   │   │   │   ├── Reshaped.h
+│   │   │   │   │   │   │   ├── ReturnByValue.h
+│   │   │   │   │   │   │   ├── Reverse.h
+│   │   │   │   │   │   │   ├── Select.h
+│   │   │   │   │   │   │   ├── SelfAdjointView.h
+│   │   │   │   │   │   │   ├── SelfCwiseBinaryOp.h
+│   │   │   │   │   │   │   ├── Solve.h
+│   │   │   │   │   │   │   ├── SolveTriangular.h
+│   │   │   │   │   │   │   ├── SolverBase.h
+│   │   │   │   │   │   │   ├── StableNorm.h
+│   │   │   │   │   │   │   ├── StlIterators.h
+│   │   │   │   │   │   │   ├── Stride.h
+│   │   │   │   │   │   │   ├── Swap.h
+│   │   │   │   │   │   │   ├── Transpose.h
+│   │   │   │   │   │   │   ├── Transpositions.h
+│   │   │   │   │   │   │   ├── TriangularMatrix.h
+│   │   │   │   │   │   │   ├── VectorBlock.h
+│   │   │   │   │   │   │   ├── VectorwiseOp.h
+│   │   │   │   │   │   │   ├── Visitor.h
+│   │   │   │   │   │   │   ├── arch
+│   │   │   │   │   │   │   │   ├── AVX
+│   │   │   │   │   │   │   │   │   ├── Complex.h
+│   │   │   │   │   │   │   │   │   ├── MathFunctions.h
+│   │   │   │   │   │   │   │   │   ├── PacketMath.h
+│   │   │   │   │   │   │   │   │   ├── TypeCasting.h
+│   │   │   │   │   │   │   │   ├── AVX512
+│   │   │   │   │   │   │   │   │   ├── Complex.h
+│   │   │   │   │   │   │   │   │   ├── MathFunctions.h
+│   │   │   │   │   │   │   │   │   ├── PacketMath.h
+│   │   │   │   │   │   │   │   │   ├── TypeCasting.h
+│   │   │   │   │   │   │   │   ├── AltiVec
+│   │   │   │   │   │   │   │   │   ├── Complex.h
+│   │   │   │   │   │   │   │   │   ├── MathFunctions.h
+│   │   │   │   │   │   │   │   │   ├── MatrixProduct.h
+│   │   │   │   │   │   │   │   │   ├── MatrixProductCommon.h
+│   │   │   │   │   │   │   │   │   ├── MatrixProductMMA.h
+│   │   │   │   │   │   │   │   │   ├── PacketMath.h
+│   │   │   │   │   │   │   │   ├── CUDA
+│   │   │   │   │   │   │   │   │   ├── Complex.h
+│   │   │   │   │   │   │   │   ├── Default
+│   │   │   │   │   │   │   │   │   ├── BFloat16.h
+│   │   │   │   │   │   │   │   │   ├── ConjHelper.h
+│   │   │   │   │   │   │   │   │   ├── GenericPacketMathFunctions.h
+│   │   │   │   │   │   │   │   │   ├── GenericPacketMathFunctionsFwd.h
+│   │   │   │   │   │   │   │   │   ├── Half.h
+│   │   │   │   │   │   │   │   │   ├── Settings.h
+│   │   │   │   │   │   │   │   │   ├── TypeCasting.h
+│   │   │   │   │   │   │   │   ├── GPU
+│   │   │   │   │   │   │   │   │   ├── MathFunctions.h
+│   │   │   │   │   │   │   │   │   ├── PacketMath.h
+│   │   │   │   │   │   │   │   │   ├── TypeCasting.h
+│   │   │   │   │   │   │   │   ├── HIP
+│   │   │   │   │   │   │   │   │   ├── hcc
+│   │   │   │   │   │   │   │   │   │   ├── math_constants.h
+│   │   │   │   │   │   │   │   ├── MSA
+│   │   │   │   │   │   │   │   │   ├── Complex.h
+│   │   │   │   │   │   │   │   │   ├── MathFunctions.h
+│   │   │   │   │   │   │   │   │   ├── PacketMath.h
+│   │   │   │   │   │   │   │   ├── NEON
+│   │   │   │   │   │   │   │   │   ├── Complex.h
+│   │   │   │   │   │   │   │   │   ├── GeneralBlockPanelKernel.h
+│   │   │   │   │   │   │   │   │   ├── MathFunctions.h
+│   │   │   │   │   │   │   │   │   ├── PacketMath.h
+│   │   │   │   │   │   │   │   │   ├── TypeCasting.h
+│   │   │   │   │   │   │   │   ├── SSE
+│   │   │   │   │   │   │   │   │   ├── Complex.h
+│   │   │   │   │   │   │   │   │   ├── MathFunctions.h
+│   │   │   │   │   │   │   │   │   ├── PacketMath.h
+│   │   │   │   │   │   │   │   │   ├── TypeCasting.h
+│   │   │   │   │   │   │   │   ├── SVE
+│   │   │   │   │   │   │   │   │   ├── MathFunctions.h
+│   │   │   │   │   │   │   │   │   ├── PacketMath.h
+│   │   │   │   │   │   │   │   │   ├── TypeCasting.h
+│   │   │   │   │   │   │   │   ├── SYCL
+│   │   │   │   │   │   │   │   │   ├── InteropHeaders.h
+│   │   │   │   │   │   │   │   │   ├── MathFunctions.h
+│   │   │   │   │   │   │   │   │   ├── PacketMath.h
+│   │   │   │   │   │   │   │   │   ├── SyclMemoryModel.h
+│   │   │   │   │   │   │   │   │   ├── TypeCasting.h
+│   │   │   │   │   │   │   │   ├── ZVector
+│   │   │   │   │   │   │   │   │   ├── Complex.h
+│   │   │   │   │   │   │   │   │   ├── MathFunctions.h
+│   │   │   │   │   │   │   │   │   ├── PacketMath.h
+│   │   │   │   │   │   │   ├── functors
+│   │   │   │   │   │   │   │   ├── AssignmentFunctors.h
+│   │   │   │   │   │   │   │   ├── BinaryFunctors.h
+│   │   │   │   │   │   │   │   ├── NullaryFunctors.h
+│   │   │   │   │   │   │   │   ├── StlFunctors.h
+│   │   │   │   │   │   │   │   ├── TernaryFunctors.h
+│   │   │   │   │   │   │   │   ├── UnaryFunctors.h
+│   │   │   │   │   │   │   ├── products
+│   │   │   │   │   │   │   │   ├── GeneralBlockPanelKernel.h
+│   │   │   │   │   │   │   │   ├── GeneralMatrixMatrix.h
+│   │   │   │   │   │   │   │   ├── GeneralMatrixMatrixTriangular.h
+│   │   │   │   │   │   │   │   ├── GeneralMatrixMatrixTriangular_BLAS.h
+│   │   │   │   │   │   │   │   ├── GeneralMatrixMatrix_BLAS.h
+│   │   │   │   │   │   │   │   ├── GeneralMatrixVector.h
+│   │   │   │   │   │   │   │   ├── GeneralMatrixVector_BLAS.h
+│   │   │   │   │   │   │   │   ├── Parallelizer.h
+│   │   │   │   │   │   │   │   ├── SelfadjointMatrixMatrix.h
+│   │   │   │   │   │   │   │   ├── SelfadjointMatrixMatrix_BLAS.h
+│   │   │   │   │   │   │   │   ├── SelfadjointMatrixVector.h
+│   │   │   │   │   │   │   │   ├── SelfadjointMatrixVector_BLAS.h
+│   │   │   │   │   │   │   │   ├── SelfadjointProduct.h
+│   │   │   │   │   │   │   │   ├── SelfadjointRank2Update.h
+│   │   │   │   │   │   │   │   ├── TriangularMatrixMatrix.h
+│   │   │   │   │   │   │   │   ├── TriangularMatrixMatrix_BLAS.h
+│   │   │   │   │   │   │   │   ├── TriangularMatrixVector.h
+│   │   │   │   │   │   │   │   ├── TriangularMatrixVector_BLAS.h
+│   │   │   │   │   │   │   │   ├── TriangularSolverMatrix.h
+│   │   │   │   │   │   │   │   ├── TriangularSolverMatrix_BLAS.h
+│   │   │   │   │   │   │   │   ├── TriangularSolverVector.h
+│   │   │   │   │   │   │   ├── util
+│   │   │   │   │   │   │   │   ├── BlasUtil.h
+│   │   │   │   │   │   │   │   ├── ConfigureVectorization.h
+│   │   │   │   │   │   │   │   ├── Constants.h
+│   │   │   │   │   │   │   │   ├── DisableStupidWarnings.h
+│   │   │   │   │   │   │   │   ├── ForwardDeclarations.h
+│   │   │   │   │   │   │   │   ├── IndexedViewHelper.h
+│   │   │   │   │   │   │   │   ├── IntegralConstant.h
+│   │   │   │   │   │   │   │   ├── MKL_support.h
+│   │   │   │   │   │   │   │   ├── Macros.h
+│   │   │   │   │   │   │   │   ├── Memory.h
+│   │   │   │   │   │   │   │   ├── Meta.h
+│   │   │   │   │   │   │   │   ├── NonMPL2.h
+│   │   │   │   │   │   │   │   ├── ReenableStupidWarnings.h
+│   │   │   │   │   │   │   │   ├── ReshapedHelper.h
+│   │   │   │   │   │   │   │   ├── StaticAssert.h
+│   │   │   │   │   │   │   │   ├── SymbolicIndex.h
+│   │   │   │   │   │   │   │   ├── XprHelper.h
+│   │   │   │   │   │   ├── Eigenvalues
+│   │   │   │   │   │   │   ├── ComplexEigenSolver.h
+│   │   │   │   │   │   │   ├── ComplexSchur.h
+│   │   │   │   │   │   │   ├── ComplexSchur_LAPACKE.h
+│   │   │   │   │   │   │   ├── EigenSolver.h
+│   │   │   │   │   │   │   ├── GeneralizedEigenSolver.h
+│   │   │   │   │   │   │   ├── GeneralizedSelfAdjointEigenSolver.h
+│   │   │   │   │   │   │   ├── HessenbergDecomposition.h
+│   │   │   │   │   │   │   ├── MatrixBaseEigenvalues.h
+│   │   │   │   │   │   │   ├── RealQZ.h
+│   │   │   │   │   │   │   ├── RealSchur.h
+│   │   │   │   │   │   │   ├── RealSchur_LAPACKE.h
+│   │   │   │   │   │   │   ├── SelfAdjointEigenSolver.h
+│   │   │   │   │   │   │   ├── SelfAdjointEigenSolver_LAPACKE.h
+│   │   │   │   │   │   │   ├── Tridiagonalization.h
+│   │   │   │   │   │   ├── Geometry
+│   │   │   │   │   │   │   ├── AlignedBox.h
+│   │   │   │   │   │   │   ├── AngleAxis.h
+│   │   │   │   │   │   │   ├── EulerAngles.h
+│   │   │   │   │   │   │   ├── Homogeneous.h
+│   │   │   │   │   │   │   ├── Hyperplane.h
+│   │   │   │   │   │   │   ├── OrthoMethods.h
+│   │   │   │   │   │   │   ├── ParametrizedLine.h
+│   │   │   │   │   │   │   ├── Quaternion.h
+│   │   │   │   │   │   │   ├── Rotation2D.h
+│   │   │   │   │   │   │   ├── RotationBase.h
+│   │   │   │   │   │   │   ├── Scaling.h
+│   │   │   │   │   │   │   ├── Transform.h
+│   │   │   │   │   │   │   ├── Translation.h
+│   │   │   │   │   │   │   ├── Umeyama.h
+│   │   │   │   │   │   │   ├── arch
+│   │   │   │   │   │   │   │   ├── Geometry_SIMD.h
+│   │   │   │   │   │   ├── Householder
+│   │   │   │   │   │   │   ├── BlockHouseholder.h
+│   │   │   │   │   │   │   ├── Householder.h
+│   │   │   │   │   │   │   ├── HouseholderSequence.h
+│   │   │   │   │   │   ├── IterativeLinearSolvers
+│   │   │   │   │   │   │   ├── BasicPreconditioners.h
+│   │   │   │   │   │   │   ├── BiCGSTAB.h
+│   │   │   │   │   │   │   ├── ConjugateGradient.h
+│   │   │   │   │   │   │   ├── IncompleteCholesky.h
+│   │   │   │   │   │   │   ├── IncompleteLUT.h
+│   │   │   │   │   │   │   ├── IterativeSolverBase.h
+│   │   │   │   │   │   │   ├── LeastSquareConjugateGradient.h
+│   │   │   │   │   │   │   ├── SolveWithGuess.h
+│   │   │   │   │   │   ├── Jacobi
+│   │   │   │   │   │   │   ├── Jacobi.h
+│   │   │   │   │   │   ├── KLUSupport
+│   │   │   │   │   │   │   ├── KLUSupport.h
+│   │   │   │   │   │   ├── LU
+│   │   │   │   │   │   │   ├── Determinant.h
+│   │   │   │   │   │   │   ├── FullPivLU.h
+│   │   │   │   │   │   │   ├── InverseImpl.h
+│   │   │   │   │   │   │   ├── PartialPivLU.h
+│   │   │   │   │   │   │   ├── PartialPivLU_LAPACKE.h
+│   │   │   │   │   │   │   ├── arch
+│   │   │   │   │   │   │   │   ├── InverseSize4.h
+│   │   │   │   │   │   ├── MetisSupport
+│   │   │   │   │   │   │   ├── MetisSupport.h
+│   │   │   │   │   │   ├── OrderingMethods
+│   │   │   │   │   │   │   ├── Amd.h
+│   │   │   │   │   │   │   ├── Eigen_Colamd.h
+│   │   │   │   │   │   │   ├── Ordering.h
+│   │   │   │   │   │   ├── PaStiXSupport
+│   │   │   │   │   │   │   ├── PaStiXSupport.h
+│   │   │   │   │   │   ├── PardisoSupport
+│   │   │   │   │   │   │   ├── PardisoSupport.h
+│   │   │   │   │   │   ├── QR
+│   │   │   │   │   │   │   ├── ColPivHouseholderQR.h
+│   │   │   │   │   │   │   ├── ColPivHouseholderQR_LAPACKE.h
+│   │   │   │   │   │   │   ├── CompleteOrthogonalDecomposition.h
+│   │   │   │   │   │   │   ├── FullPivHouseholderQR.h
+│   │   │   │   │   │   │   ├── HouseholderQR.h
+│   │   │   │   │   │   │   ├── HouseholderQR_LAPACKE.h
+│   │   │   │   │   │   ├── SPQRSupport
+│   │   │   │   │   │   │   ├── SuiteSparseQRSupport.h
+│   │   │   │   │   │   ├── SVD
+│   │   │   │   │   │   │   ├── BDCSVD.h
+│   │   │   │   │   │   │   ├── JacobiSVD.h
+│   │   │   │   │   │   │   ├── JacobiSVD_LAPACKE.h
+│   │   │   │   │   │   │   ├── SVDBase.h
+│   │   │   │   │   │   │   ├── UpperBidiagonalization.h
+│   │   │   │   │   │   ├── SparseCholesky
+│   │   │   │   │   │   │   ├── SimplicialCholesky.h
+│   │   │   │   │   │   │   ├── SimplicialCholesky_impl.h
+│   │   │   │   │   │   ├── SparseCore
+│   │   │   │   │   │   │   ├── AmbiVector.h
+│   │   │   │   │   │   │   ├── CompressedStorage.h
+│   │   │   │   │   │   │   ├── ConservativeSparseSparseProduct.h
+│   │   │   │   │   │   │   ├── MappedSparseMatrix.h
+│   │   │   │   │   │   │   ├── SparseAssign.h
+│   │   │   │   │   │   │   ├── SparseBlock.h
+│   │   │   │   │   │   │   ├── SparseColEtree.h
+│   │   │   │   │   │   │   ├── SparseCompressedBase.h
+│   │   │   │   │   │   │   ├── SparseCwiseBinaryOp.h
+│   │   │   │   │   │   │   ├── SparseCwiseUnaryOp.h
+│   │   │   │   │   │   │   ├── SparseDenseProduct.h
+│   │   │   │   │   │   │   ├── SparseDiagonalProduct.h
+│   │   │   │   │   │   │   ├── SparseDot.h
+│   │   │   │   │   │   │   ├── SparseFuzzy.h
+│   │   │   │   │   │   │   ├── SparseMap.h
+│   │   │   │   │   │   │   ├── SparseMatrix.h
+│   │   │   │   │   │   │   ├── SparseMatrixBase.h
+│   │   │   │   │   │   │   ├── SparsePermutation.h
+│   │   │   │   │   │   │   ├── SparseProduct.h
+│   │   │   │   │   │   │   ├── SparseRedux.h
+│   │   │   │   │   │   │   ├── SparseRef.h
+│   │   │   │   │   │   │   ├── SparseSelfAdjointView.h
+│   │   │   │   │   │   │   ├── SparseSolverBase.h
+│   │   │   │   │   │   │   ├── SparseSparseProductWithPruning.h
+│   │   │   │   │   │   │   ├── SparseTranspose.h
+│   │   │   │   │   │   │   ├── SparseTriangularView.h
+│   │   │   │   │   │   │   ├── SparseUtil.h
+│   │   │   │   │   │   │   ├── SparseVector.h
+│   │   │   │   │   │   │   ├── SparseView.h
+│   │   │   │   │   │   │   ├── TriangularSolver.h
+│   │   │   │   │   │   ├── SparseLU
+│   │   │   │   │   │   │   ├── SparseLU.h
+│   │   │   │   │   │   │   ├── SparseLUImpl.h
+│   │   │   │   │   │   │   ├── SparseLU_Memory.h
+│   │   │   │   │   │   │   ├── SparseLU_Structs.h
+│   │   │   │   │   │   │   ├── SparseLU_SupernodalMatrix.h
+│   │   │   │   │   │   │   ├── SparseLU_Utils.h
+│   │   │   │   │   │   │   ├── SparseLU_column_bmod.h
+│   │   │   │   │   │   │   ├── SparseLU_column_dfs.h
+│   │   │   │   │   │   │   ├── SparseLU_copy_to_ucol.h
+│   │   │   │   │   │   │   ├── SparseLU_heap_relax_snode.h
+│   │   │   │   │   │   │   ├── SparseLU_kernel_bmod.h
+│   │   │   │   │   │   │   ├── SparseLU_panel_bmod.h
+│   │   │   │   │   │   │   ├── SparseLU_panel_dfs.h
+│   │   │   │   │   │   │   ├── SparseLU_pivotL.h
+│   │   │   │   │   │   │   ├── SparseLU_pruneL.h
+│   │   │   │   │   │   │   ├── SparseLU_relax_snode.h
+│   │   │   │   │   │   ├── SparseQR
+│   │   │   │   │   │   │   ├── SparseQR.h
+│   │   │   │   │   │   ├── StlSupport
+│   │   │   │   │   │   │   ├── StdDeque.h
+│   │   │   │   │   │   │   ├── StdList.h
+│   │   │   │   │   │   │   ├── StdVector.h
+│   │   │   │   │   │   │   ├── details.h
+│   │   │   │   │   │   ├── SuperLUSupport
+│   │   │   │   │   │   │   ├── SuperLUSupport.h
+│   │   │   │   │   │   ├── UmfPackSupport
+│   │   │   │   │   │   │   ├── UmfPackSupport.h
+│   │   │   │   │   │   ├── misc
+│   │   │   │   │   │   │   ├── Image.h
+│   │   │   │   │   │   │   ├── Kernel.h
+│   │   │   │   │   │   │   ├── RealSvd2x2.h
+│   │   │   │   │   │   │   ├── blas.h
+│   │   │   │   │   │   │   ├── lapack.h
+│   │   │   │   │   │   │   ├── lapacke.h
+│   │   │   │   │   │   │   ├── lapacke_mangling.h
+│   │   │   │   │   │   ├── plugins
+│   │   │   │   │   │   │   ├── ArrayCwiseBinaryOps.h
+│   │   │   │   │   │   │   ├── ArrayCwiseUnaryOps.h
+│   │   │   │   │   │   │   ├── BlockMethods.h
+│   │   │   │   │   │   │   ├── CommonCwiseBinaryOps.h
+│   │   │   │   │   │   │   ├── CommonCwiseUnaryOps.h
+│   │   │   │   │   │   │   ├── IndexedViewMethods.h
+│   │   │   │   │   │   │   ├── MatrixCwiseBinaryOps.h
+│   │   │   │   │   │   │   ├── MatrixCwiseUnaryOps.h
+│   │   │   │   │   │   │   ├── ReshapedMethods.h
+│   │   │   │   ├── INSTALL
+│   │   │   │   ├── README.md
+│   │   │   │   ├── bench
+│   │   │   │   │   ├── BenchSparseUtil.h
+│   │   │   │   │   ├── BenchTimer.h
+│   │   │   │   │   ├── BenchUtil.h
+│   │   │   │   │   ├── README.txt
+│   │   │   │   │   ├── analyze-blocking-sizes.cpp
+│   │   │   │   │   ├── basicbench.cxxlist
+│   │   │   │   │   ├── basicbenchmark.cpp
+│   │   │   │   │   ├── basicbenchmark.h
+│   │   │   │   │   ├── benchBlasGemm.cpp
+│   │   │   │   │   ├── benchCholesky.cpp
+│   │   │   │   │   ├── benchEigenSolver.cpp
+│   │   │   │   │   ├── benchFFT.cpp
+│   │   │   │   │   ├── benchGeometry.cpp
+│   │   │   │   │   ├── benchVecAdd.cpp
+│   │   │   │   │   ├── bench_gemm.cpp
+│   │   │   │   │   ├── bench_move_semantics.cpp
+│   │   │   │   │   ├── bench_multi_compilers.sh
+│   │   │   │   │   ├── bench_norm.cpp
+│   │   │   │   │   ├── bench_reverse.cpp
+│   │   │   │   │   ├── bench_sum.cpp
+│   │   │   │   │   ├── bench_unrolling
+│   │   │   │   │   ├── benchmark-blocking-sizes.cpp
+│   │   │   │   │   ├── benchmark.cpp
+│   │   │   │   │   ├── benchmarkSlice.cpp
+│   │   │   │   │   ├── benchmarkX.cpp
+│   │   │   │   │   ├── benchmarkXcwise.cpp
+│   │   │   │   │   ├── benchmark_suite
+│   │   │   │   │   ├── btl
+│   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   ├── COPYING
+│   │   │   │   │   │   ├── README
+│   │   │   │   │   │   ├── actions
+│   │   │   │   │   │   │   ├── action_aat_product.hh
+│   │   │   │   │   │   │   ├── action_ata_product.hh
+│   │   │   │   │   │   │   ├── action_atv_product.hh
+│   │   │   │   │   │   │   ├── action_axpby.hh
+│   │   │   │   │   │   │   ├── action_axpy.hh
+│   │   │   │   │   │   │   ├── action_cholesky.hh
+│   │   │   │   │   │   │   ├── action_ger.hh
+│   │   │   │   │   │   │   ├── action_hessenberg.hh
+│   │   │   │   │   │   │   ├── action_lu_decomp.hh
+│   │   │   │   │   │   │   ├── action_lu_solve.hh
+│   │   │   │   │   │   │   ├── action_matrix_matrix_product.hh
+│   │   │   │   │   │   │   ├── action_matrix_matrix_product_bis.hh
+│   │   │   │   │   │   │   ├── action_matrix_vector_product.hh
+│   │   │   │   │   │   │   ├── action_partial_lu.hh
+│   │   │   │   │   │   │   ├── action_rot.hh
+│   │   │   │   │   │   │   ├── action_symv.hh
+│   │   │   │   │   │   │   ├── action_syr2.hh
+│   │   │   │   │   │   │   ├── action_trisolve.hh
+│   │   │   │   │   │   │   ├── action_trisolve_matrix.hh
+│   │   │   │   │   │   │   ├── action_trmm.hh
+│   │   │   │   │   │   │   ├── basic_actions.hh
+│   │   │   │   │   │   ├── cmake
+│   │   │   │   │   │   │   ├── FindACML.cmake
+│   │   │   │   │   │   │   ├── FindATLAS.cmake
+│   │   │   │   │   │   │   ├── FindBLAZE.cmake
+│   │   │   │   │   │   │   ├── FindBlitz.cmake
+│   │   │   │   │   │   │   ├── FindCBLAS.cmake
+│   │   │   │   │   │   │   ├── FindGMM.cmake
+│   │   │   │   │   │   │   ├── FindMKL.cmake
+│   │   │   │   │   │   │   ├── FindMTL4.cmake
+│   │   │   │   │   │   │   ├── FindOPENBLAS.cmake
+│   │   │   │   │   │   │   ├── FindPackageHandleStandardArgs.cmake
+│   │   │   │   │   │   │   ├── FindTvmet.cmake
+│   │   │   │   │   │   │   ├── MacroOptionalAddSubdirectory.cmake
+│   │   │   │   │   │   ├── data
+│   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   ├── action_settings.txt
+│   │   │   │   │   │   │   ├── gnuplot_common_settings.hh
+│   │   │   │   │   │   │   ├── go_mean
+│   │   │   │   │   │   │   ├── mean.cxx
+│   │   │   │   │   │   │   ├── mk_gnuplot_script.sh
+│   │   │   │   │   │   │   ├── mk_mean_script.sh
+│   │   │   │   │   │   │   ├── mk_new_gnuplot.sh
+│   │   │   │   │   │   │   ├── perlib_plot_settings.txt
+│   │   │   │   │   │   │   ├── regularize.cxx
+│   │   │   │   │   │   │   ├── smooth.cxx
+│   │   │   │   │   │   │   ├── smooth_all.sh
+│   │   │   │   │   │   ├── generic_bench
+│   │   │   │   │   │   │   ├── bench.hh
+│   │   │   │   │   │   │   ├── bench_parameter.hh
+│   │   │   │   │   │   │   ├── btl.hh
+│   │   │   │   │   │   │   ├── init
+│   │   │   │   │   │   │   │   ├── init_function.hh
+│   │   │   │   │   │   │   │   ├── init_matrix.hh
+│   │   │   │   │   │   │   │   ├── init_vector.hh
+│   │   │   │   │   │   │   ├── static
+│   │   │   │   │   │   │   │   ├── bench_static.hh
+│   │   │   │   │   │   │   │   ├── intel_bench_fixed_size.hh
+│   │   │   │   │   │   │   │   ├── static_size_generator.hh
+│   │   │   │   │   │   │   ├── timers
+│   │   │   │   │   │   │   │   ├── STL_perf_analyzer.hh
+│   │   │   │   │   │   │   │   ├── STL_timer.hh
+│   │   │   │   │   │   │   │   ├── mixed_perf_analyzer.hh
+│   │   │   │   │   │   │   │   ├── portable_perf_analyzer.hh
+│   │   │   │   │   │   │   │   ├── portable_perf_analyzer_old.hh
+│   │   │   │   │   │   │   │   ├── portable_timer.hh
+│   │   │   │   │   │   │   │   ├── x86_perf_analyzer.hh
+│   │   │   │   │   │   │   │   ├── x86_timer.hh
+│   │   │   │   │   │   │   ├── utils
+│   │   │   │   │   │   │   │   ├── size_lin_log.hh
+│   │   │   │   │   │   │   │   ├── size_log.hh
+│   │   │   │   │   │   │   │   ├── utilities.h
+│   │   │   │   │   │   │   │   ├── xy_file.hh
+│   │   │   │   │   │   ├── libs
+│   │   │   │   │   │   │   ├── BLAS
+│   │   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   │   ├── blas.h
+│   │   │   │   │   │   │   │   ├── blas_interface.hh
+│   │   │   │   │   │   │   │   ├── blas_interface_impl.hh
+│   │   │   │   │   │   │   │   ├── c_interface_base.h
+│   │   │   │   │   │   │   │   ├── main.cpp
+│   │   │   │   │   │   │   ├── STL
+│   │   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   │   ├── STL_interface.hh
+│   │   │   │   │   │   │   │   ├── main.cpp
+│   │   │   │   │   │   │   ├── blaze
+│   │   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   │   ├── blaze_interface.hh
+│   │   │   │   │   │   │   │   ├── main.cpp
+│   │   │   │   │   │   │   ├── blitz
+│   │   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   │   ├── blitz_LU_solve_interface.hh
+│   │   │   │   │   │   │   │   ├── blitz_interface.hh
+│   │   │   │   │   │   │   │   ├── btl_blitz.cpp
+│   │   │   │   │   │   │   │   ├── btl_tiny_blitz.cpp
+│   │   │   │   │   │   │   │   ├── tiny_blitz_interface.hh
+│   │   │   │   │   │   │   ├── eigen2
+│   │   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   │   ├── btl_tiny_eigen2.cpp
+│   │   │   │   │   │   │   │   ├── eigen2_interface.hh
+│   │   │   │   │   │   │   │   ├── main_adv.cpp
+│   │   │   │   │   │   │   │   ├── main_linear.cpp
+│   │   │   │   │   │   │   │   ├── main_matmat.cpp
+│   │   │   │   │   │   │   │   ├── main_vecmat.cpp
+│   │   │   │   │   │   │   ├── eigen3
+│   │   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   │   ├── btl_tiny_eigen3.cpp
+│   │   │   │   │   │   │   │   ├── eigen3_interface.hh
+│   │   │   │   │   │   │   │   ├── main_adv.cpp
+│   │   │   │   │   │   │   │   ├── main_linear.cpp
+│   │   │   │   │   │   │   │   ├── main_matmat.cpp
+│   │   │   │   │   │   │   │   ├── main_vecmat.cpp
+│   │   │   │   │   │   │   ├── gmm
+│   │   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   │   ├── gmm_LU_solve_interface.hh
+│   │   │   │   │   │   │   │   ├── gmm_interface.hh
+│   │   │   │   │   │   │   │   ├── main.cpp
+│   │   │   │   │   │   │   ├── mtl4
+│   │   │   │   │   │   │   │   ├── .kdbgrc.main
+│   │   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   │   ├── main.cpp
+│   │   │   │   │   │   │   │   ├── mtl4_LU_solve_interface.hh
+│   │   │   │   │   │   │   │   ├── mtl4_interface.hh
+│   │   │   │   │   │   │   ├── tensors
+│   │   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   │   ├── main_linear.cpp
+│   │   │   │   │   │   │   │   ├── main_matmat.cpp
+│   │   │   │   │   │   │   │   ├── main_vecmat.cpp
+│   │   │   │   │   │   │   │   ├── tensor_interface.hh
+│   │   │   │   │   │   │   ├── tvmet
+│   │   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   │   ├── main.cpp
+│   │   │   │   │   │   │   │   ├── tvmet_interface.hh
+│   │   │   │   │   │   │   ├── ublas
+│   │   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   │   ├── main.cpp
+│   │   │   │   │   │   │   │   ├── ublas_interface.hh
+│   │   │   │   │   ├── check_cache_queries.cpp
+│   │   │   │   │   ├── dense_solvers.cpp
+│   │   │   │   │   ├── eig33.cpp
+│   │   │   │   │   ├── geometry.cpp
+│   │   │   │   │   ├── perf_monitoring
+│   │   │   │   │   │   ├── changesets.txt
+│   │   │   │   │   │   ├── gemm.cpp
+│   │   │   │   │   │   ├── gemm_common.h
+│   │   │   │   │   │   ├── gemm_settings.txt
+│   │   │   │   │   │   ├── gemm_square_settings.txt
+│   │   │   │   │   │   ├── gemv.cpp
+│   │   │   │   │   │   ├── gemv_common.h
+│   │   │   │   │   │   ├── gemv_settings.txt
+│   │   │   │   │   │   ├── gemv_square_settings.txt
+│   │   │   │   │   │   ├── gemvt.cpp
+│   │   │   │   │   │   ├── lazy_gemm.cpp
+│   │   │   │   │   │   ├── lazy_gemm_settings.txt
+│   │   │   │   │   │   ├── llt.cpp
+│   │   │   │   │   │   ├── make_plot.sh
+│   │   │   │   │   │   ├── resources
+│   │   │   │   │   │   │   ├── chart_footer.html
+│   │   │   │   │   │   │   ├── chart_header.html
+│   │   │   │   │   │   │   ├── footer.html
+│   │   │   │   │   │   │   ├── header.html
+│   │   │   │   │   │   │   ├── s1.js
+│   │   │   │   │   │   │   ├── s2.js
+│   │   │   │   │   │   ├── run.sh
+│   │   │   │   │   │   ├── runall.sh
+│   │   │   │   │   │   ├── trmv_lo.cpp
+│   │   │   │   │   │   ├── trmv_lot.cpp
+│   │   │   │   │   │   ├── trmv_up.cpp
+│   │   │   │   │   │   ├── trmv_upt.cpp
+│   │   │   │   │   ├── product_threshold.cpp
+│   │   │   │   │   ├── quat_slerp.cpp
+│   │   │   │   │   ├── quatmul.cpp
+│   │   │   │   │   ├── sparse_cholesky.cpp
+│   │   │   │   │   ├── sparse_dense_product.cpp
+│   │   │   │   │   ├── sparse_lu.cpp
+│   │   │   │   │   ├── sparse_product.cpp
+│   │   │   │   │   ├── sparse_randomsetter.cpp
+│   │   │   │   │   ├── sparse_setter.cpp
+│   │   │   │   │   ├── sparse_transpose.cpp
+│   │   │   │   │   ├── sparse_trisolver.cpp
+│   │   │   │   │   ├── spbench
+│   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   ├── sp_solver.cpp
+│   │   │   │   │   │   ├── spbench.dtd
+│   │   │   │   │   │   ├── spbenchsolver.cpp
+│   │   │   │   │   │   ├── spbenchsolver.h
+│   │   │   │   │   │   ├── spbenchstyle.h
+│   │   │   │   │   │   ├── test_sparseLU.cpp
+│   │   │   │   │   ├── spmv.cpp
+│   │   │   │   │   ├── tensors
+│   │   │   │   │   │   ├── README
+│   │   │   │   │   │   ├── benchmark.h
+│   │   │   │   │   │   ├── benchmark_main.cc
+│   │   │   │   │   │   ├── contraction_benchmarks_cpu.cc
+│   │   │   │   │   │   ├── eigen_sycl_bench.sh
+│   │   │   │   │   │   ├── eigen_sycl_bench_contract.sh
+│   │   │   │   │   │   ├── tensor_benchmarks.h
+│   │   │   │   │   │   ├── tensor_benchmarks_cpu.cc
+│   │   │   │   │   │   ├── tensor_benchmarks_fp16_gpu.cu
+│   │   │   │   │   │   ├── tensor_benchmarks_gpu.cu
+│   │   │   │   │   │   ├── tensor_benchmarks_sycl.cc
+│   │   │   │   │   │   ├── tensor_contract_sycl_bench.cc
+│   │   │   │   │   ├── vdw_new.cpp
+│   │   │   │   ├── blas
+│   │   │   │   │   ├── BandTriangularSolver.h
+│   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   ├── GeneralRank1Update.h
+│   │   │   │   │   ├── PackedSelfadjointProduct.h
+│   │   │   │   │   ├── PackedTriangularMatrixVector.h
+│   │   │   │   │   ├── PackedTriangularSolverVector.h
+│   │   │   │   │   ├── README.txt
+│   │   │   │   │   ├── Rank2Update.h
+│   │   │   │   │   ├── common.h
+│   │   │   │   │   ├── complex_double.cpp
+│   │   │   │   │   ├── complex_single.cpp
+│   │   │   │   │   ├── double.cpp
+│   │   │   │   │   ├── f2c
+│   │   │   │   │   │   ├── chbmv.c
+│   │   │   │   │   │   ├── chpmv.c
+│   │   │   │   │   │   ├── complexdots.c
+│   │   │   │   │   │   ├── ctbmv.c
+│   │   │   │   │   │   ├── d_cnjg.c
+│   │   │   │   │   │   ├── datatypes.h
+│   │   │   │   │   │   ├── drotm.c
+│   │   │   │   │   │   ├── drotmg.c
+│   │   │   │   │   │   ├── dsbmv.c
+│   │   │   │   │   │   ├── dspmv.c
+│   │   │   │   │   │   ├── dtbmv.c
+│   │   │   │   │   │   ├── lsame.c
+│   │   │   │   │   │   ├── r_cnjg.c
+│   │   │   │   │   │   ├── srotm.c
+│   │   │   │   │   │   ├── srotmg.c
+│   │   │   │   │   │   ├── ssbmv.c
+│   │   │   │   │   │   ├── sspmv.c
+│   │   │   │   │   │   ├── stbmv.c
+│   │   │   │   │   │   ├── zhbmv.c
+│   │   │   │   │   │   ├── zhpmv.c
+│   │   │   │   │   │   ├── ztbmv.c
+│   │   │   │   │   ├── fortran
+│   │   │   │   │   │   ├── complexdots.f
+│   │   │   │   │   ├── level1_cplx_impl.h
+│   │   │   │   │   ├── level1_impl.h
+│   │   │   │   │   ├── level1_real_impl.h
+│   │   │   │   │   ├── level2_cplx_impl.h
+│   │   │   │   │   ├── level2_impl.h
+│   │   │   │   │   ├── level2_real_impl.h
+│   │   │   │   │   ├── level3_impl.h
+│   │   │   │   │   ├── single.cpp
+│   │   │   │   │   ├── testing
+│   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   ├── cblat1.f
+│   │   │   │   │   │   ├── cblat2.dat
+│   │   │   │   │   │   ├── cblat2.f
+│   │   │   │   │   │   ├── cblat3.dat
+│   │   │   │   │   │   ├── cblat3.f
+│   │   │   │   │   │   ├── dblat1.f
+│   │   │   │   │   │   ├── dblat2.dat
+│   │   │   │   │   │   ├── dblat2.f
+│   │   │   │   │   │   ├── dblat3.dat
+│   │   │   │   │   │   ├── dblat3.f
+│   │   │   │   │   │   ├── runblastest.sh
+│   │   │   │   │   │   ├── sblat1.f
+│   │   │   │   │   │   ├── sblat2.dat
+│   │   │   │   │   │   ├── sblat2.f
+│   │   │   │   │   │   ├── sblat3.dat
+│   │   │   │   │   │   ├── sblat3.f
+│   │   │   │   │   │   ├── zblat1.f
+│   │   │   │   │   │   ├── zblat2.dat
+│   │   │   │   │   │   ├── zblat2.f
+│   │   │   │   │   │   ├── zblat3.dat
+│   │   │   │   │   │   ├── zblat3.f
+│   │   │   │   │   ├── xerbla.cpp
+│   │   │   │   ├── ci
+│   │   │   │   │   ├── CTest2JUnit.xsl
+│   │   │   │   │   ├── README.md
+│   │   │   │   ├── cmake
+│   │   │   │   │   ├── ComputeCppCompilerChecks.cmake
+│   │   │   │   │   ├── ComputeCppIRMap.cmake
+│   │   │   │   │   ├── Eigen3Config.cmake.in
+│   │   │   │   │   ├── Eigen3ConfigLegacy.cmake.in
+│   │   │   │   │   ├── EigenConfigureTesting.cmake
+│   │   │   │   │   ├── EigenDetermineOSVersion.cmake
+│   │   │   │   │   ├── EigenDetermineVSServicePack.cmake
+│   │   │   │   │   ├── EigenSmokeTestList.cmake
+│   │   │   │   │   ├── EigenTesting.cmake
+│   │   │   │   │   ├── EigenUninstall.cmake
+│   │   │   │   │   ├── FindAdolc.cmake
+│   │   │   │   │   ├── FindBLAS.cmake
+│   │   │   │   │   ├── FindBLASEXT.cmake
+│   │   │   │   │   ├── FindCHOLMOD.cmake
+│   │   │   │   │   ├── FindComputeCpp.cmake
+│   │   │   │   │   ├── FindEigen2.cmake
+│   │   │   │   │   ├── FindEigen3.cmake
+│   │   │   │   │   ├── FindFFTW.cmake
+│   │   │   │   │   ├── FindGLEW.cmake
+│   │   │   │   │   ├── FindGMP.cmake
+│   │   │   │   │   ├── FindGSL.cmake
+│   │   │   │   │   ├── FindGoogleHash.cmake
+│   │   │   │   │   ├── FindHWLOC.cmake
+│   │   │   │   │   ├── FindKLU.cmake
+│   │   │   │   │   ├── FindLAPACK.cmake
+│   │   │   │   │   ├── FindMPFR.cmake
+│   │   │   │   │   ├── FindMPREAL.cmake
+│   │   │   │   │   ├── FindMetis.cmake
+│   │   │   │   │   ├── FindPASTIX.cmake
+│   │   │   │   │   ├── FindPTSCOTCH.cmake
+│   │   │   │   │   ├── FindSCOTCH.cmake
+│   │   │   │   │   ├── FindSPQR.cmake
+│   │   │   │   │   ├── FindStandardMathLibrary.cmake
+│   │   │   │   │   ├── FindSuperLU.cmake
+│   │   │   │   │   ├── FindTriSYCL.cmake
+│   │   │   │   │   ├── FindUMFPACK.cmake
+│   │   │   │   │   ├── RegexUtils.cmake
+│   │   │   │   │   ├── UseEigen3.cmake
+│   │   │   │   ├── debug
+│   │   │   │   │   ├── gdb
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── printers.py
+│   │   │   │   │   ├── msvc
+│   │   │   │   │   │   ├── eigen.natvis
+│   │   │   │   │   │   ├── eigen_autoexp_part.dat
+│   │   │   │   ├── demos
+│   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   ├── mandelbrot
+│   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   ├── README
+│   │   │   │   │   │   ├── mandelbrot.cpp
+│   │   │   │   │   │   ├── mandelbrot.h
+│   │   │   │   │   ├── mix_eigen_and_c
+│   │   │   │   │   │   ├── README
+│   │   │   │   │   │   ├── binary_library.cpp
+│   │   │   │   │   │   ├── binary_library.h
+│   │   │   │   │   │   ├── example.c
+│   │   │   │   │   ├── opengl
+│   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   ├── README
+│   │   │   │   │   │   ├── camera.cpp
+│   │   │   │   │   │   ├── camera.h
+│   │   │   │   │   │   ├── gpuhelper.cpp
+│   │   │   │   │   │   ├── gpuhelper.h
+│   │   │   │   │   │   ├── icosphere.cpp
+│   │   │   │   │   │   ├── icosphere.h
+│   │   │   │   │   │   ├── quaternion_demo.cpp
+│   │   │   │   │   │   ├── quaternion_demo.h
+│   │   │   │   │   │   ├── trackball.cpp
+│   │   │   │   │   │   ├── trackball.h
+│   │   │   │   ├── doc
+│   │   │   │   │   ├── AsciiQuickReference.txt
+│   │   │   │   │   ├── B01_Experimental.dox
+│   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   ├── ClassHierarchy.dox
+│   │   │   │   │   ├── CoeffwiseMathFunctionsTable.dox
+│   │   │   │   │   ├── CustomizingEigen_CustomScalar.dox
+│   │   │   │   │   ├── CustomizingEigen_InheritingMatrix.dox
+│   │   │   │   │   ├── CustomizingEigen_NullaryExpr.dox
+│   │   │   │   │   ├── CustomizingEigen_Plugins.dox
+│   │   │   │   │   ├── DenseDecompositionBenchmark.dox
+│   │   │   │   │   ├── Doxyfile.in
+│   │   │   │   │   ├── Eigen_Silly_Professor_64x64.png
+│   │   │   │   │   ├── FixedSizeVectorizable.dox
+│   │   │   │   │   ├── FunctionsTakingEigenTypes.dox
+│   │   │   │   │   ├── HiPerformance.dox
+│   │   │   │   │   ├── InplaceDecomposition.dox
+│   │   │   │   │   ├── InsideEigenExample.dox
+│   │   │   │   │   ├── LeastSquares.dox
+│   │   │   │   │   ├── Manual.dox
+│   │   │   │   │   ├── MatrixfreeSolverExample.dox
+│   │   │   │   │   ├── NewExpressionType.dox
+│   │   │   │   │   ├── Overview.dox
+│   │   │   │   │   ├── PassingByValue.dox
+│   │   │   │   │   ├── Pitfalls.dox
+│   │   │   │   │   ├── PreprocessorDirectives.dox
+│   │   │   │   │   ├── QuickReference.dox
+│   │   │   │   │   ├── QuickStartGuide.dox
+│   │   │   │   │   ├── SparseLinearSystems.dox
+│   │   │   │   │   ├── SparseQuickReference.dox
+│   │   │   │   │   ├── StlContainers.dox
+│   │   │   │   │   ├── StorageOrders.dox
+│   │   │   │   │   ├── StructHavingEigenMembers.dox
+│   │   │   │   │   ├── TemplateKeyword.dox
+│   │   │   │   │   ├── TopicAliasing.dox
+│   │   │   │   │   ├── TopicAssertions.dox
+│   │   │   │   │   ├── TopicCMakeGuide.dox
+│   │   │   │   │   ├── TopicEigenExpressionTemplates.dox
+│   │   │   │   │   ├── TopicLazyEvaluation.dox
+│   │   │   │   │   ├── TopicLinearAlgebraDecompositions.dox
+│   │   │   │   │   ├── TopicMultithreading.dox
+│   │   │   │   │   ├── TopicResizing.dox
+│   │   │   │   │   ├── TopicScalarTypes.dox
+│   │   │   │   │   ├── TopicVectorization.dox
+│   │   │   │   │   ├── TutorialAdvancedInitialization.dox
+│   │   │   │   │   ├── TutorialArrayClass.dox
+│   │   │   │   │   ├── TutorialBlockOperations.dox
+│   │   │   │   │   ├── TutorialGeometry.dox
+│   │   │   │   │   ├── TutorialLinearAlgebra.dox
+│   │   │   │   │   ├── TutorialMapClass.dox
+│   │   │   │   │   ├── TutorialMatrixArithmetic.dox
+│   │   │   │   │   ├── TutorialMatrixClass.dox
+│   │   │   │   │   ├── TutorialReductionsVisitorsBroadcasting.dox
+│   │   │   │   │   ├── TutorialReshape.dox
+│   │   │   │   │   ├── TutorialSTL.dox
+│   │   │   │   │   ├── TutorialSlicingIndexing.dox
+│   │   │   │   │   ├── TutorialSparse.dox
+│   │   │   │   │   ├── TutorialSparse_example_details.dox
+│   │   │   │   │   ├── UnalignedArrayAssert.dox
+│   │   │   │   │   ├── UsingBlasLapackBackends.dox
+│   │   │   │   │   ├── UsingIntelMKL.dox
+│   │   │   │   │   ├── UsingNVCC.dox
+│   │   │   │   │   ├── WrongStackAlignment.dox
+│   │   │   │   │   ├── eigen_navtree_hacks.js
+│   │   │   │   │   ├── eigendoxy.css
+│   │   │   │   │   ├── eigendoxy_footer.html.in
+│   │   │   │   │   ├── eigendoxy_header.html.in
+│   │   │   │   │   ├── eigendoxy_layout.xml.in
+│   │   │   │   │   ├── eigendoxy_tabs.css
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── .krazy
+│   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   ├── CustomizingEigen_Inheritance.cpp
+│   │   │   │   │   │   ├── Cwise_erf.cpp
+│   │   │   │   │   │   ├── Cwise_erfc.cpp
+│   │   │   │   │   │   ├── Cwise_lgamma.cpp
+│   │   │   │   │   │   ├── DenseBase_middleCols_int.cpp
+│   │   │   │   │   │   ├── DenseBase_middleRows_int.cpp
+│   │   │   │   │   │   ├── DenseBase_template_int_middleCols.cpp
+│   │   │   │   │   │   ├── DenseBase_template_int_middleRows.cpp
+│   │   │   │   │   │   ├── QuickStart_example.cpp
+│   │   │   │   │   │   ├── QuickStart_example2_dynamic.cpp
+│   │   │   │   │   │   ├── QuickStart_example2_fixed.cpp
+│   │   │   │   │   │   ├── TemplateKeyword_flexible.cpp
+│   │   │   │   │   │   ├── TemplateKeyword_simple.cpp
+│   │   │   │   │   │   ├── TutorialInplaceLU.cpp
+│   │   │   │   │   │   ├── TutorialLinAlgComputeTwice.cpp
+│   │   │   │   │   │   ├── TutorialLinAlgExComputeSolveError.cpp
+│   │   │   │   │   │   ├── TutorialLinAlgExSolveColPivHouseholderQR.cpp
+│   │   │   │   │   │   ├── TutorialLinAlgExSolveLDLT.cpp
+│   │   │   │   │   │   ├── TutorialLinAlgInverseDeterminant.cpp
+│   │   │   │   │   │   ├── TutorialLinAlgRankRevealing.cpp
+│   │   │   │   │   │   ├── TutorialLinAlgSVDSolve.cpp
+│   │   │   │   │   │   ├── TutorialLinAlgSelfAdjointEigenSolver.cpp
+│   │   │   │   │   │   ├── TutorialLinAlgSetThreshold.cpp
+│   │   │   │   │   │   ├── Tutorial_ArrayClass_accessors.cpp
+│   │   │   │   │   │   ├── Tutorial_ArrayClass_addition.cpp
+│   │   │   │   │   │   ├── Tutorial_ArrayClass_cwise_other.cpp
+│   │   │   │   │   │   ├── Tutorial_ArrayClass_interop.cpp
+│   │   │   │   │   │   ├── Tutorial_ArrayClass_interop_matrix.cpp
+│   │   │   │   │   │   ├── Tutorial_ArrayClass_mult.cpp
+│   │   │   │   │   │   ├── Tutorial_BlockOperations_block_assignment.cpp
+│   │   │   │   │   │   ├── Tutorial_BlockOperations_colrow.cpp
+│   │   │   │   │   │   ├── Tutorial_BlockOperations_corner.cpp
+│   │   │   │   │   │   ├── Tutorial_BlockOperations_print_block.cpp
+│   │   │   │   │   │   ├── Tutorial_BlockOperations_vector.cpp
+│   │   │   │   │   │   ├── Tutorial_PartialLU_solve.cpp
+│   │   │   │   │   │   ├── Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn.cpp
+│   │   │   │   │   │   ├── Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.cpp
+│   │   │   │   │   │   ├── Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.cpp
+│   │   │   │   │   │   ├── Tutorial_ReductionsVisitorsBroadcasting_colwise.cpp
+│   │   │   │   │   │   ├── Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp
+│   │   │   │   │   │   ├── Tutorial_ReductionsVisitorsBroadcasting_reductions_bool.cpp
+│   │   │   │   │   │   ├── Tutorial_ReductionsVisitorsBroadcasting_reductions_norm.cpp
+│   │   │   │   │   │   ├── Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm.cpp
+│   │   │   │   │   │   ├── Tutorial_ReductionsVisitorsBroadcasting_rowwise.cpp
+│   │   │   │   │   │   ├── Tutorial_ReductionsVisitorsBroadcasting_visitors.cpp
+│   │   │   │   │   │   ├── Tutorial_simple_example_dynamic_size.cpp
+│   │   │   │   │   │   ├── Tutorial_simple_example_fixed_size.cpp
+│   │   │   │   │   │   ├── class_Block.cpp
+│   │   │   │   │   │   ├── class_CwiseBinaryOp.cpp
+│   │   │   │   │   │   ├── class_CwiseUnaryOp.cpp
+│   │   │   │   │   │   ├── class_CwiseUnaryOp_ptrfun.cpp
+│   │   │   │   │   │   ├── class_FixedBlock.cpp
+│   │   │   │   │   │   ├── class_FixedReshaped.cpp
+│   │   │   │   │   │   ├── class_FixedVectorBlock.cpp
+│   │   │   │   │   │   ├── class_Reshaped.cpp
+│   │   │   │   │   │   ├── class_VectorBlock.cpp
+│   │   │   │   │   │   ├── function_taking_eigenbase.cpp
+│   │   │   │   │   │   ├── function_taking_ref.cpp
+│   │   │   │   │   │   ├── make_circulant.cpp
+│   │   │   │   │   │   ├── make_circulant.cpp.entry
+│   │   │   │   │   │   ├── make_circulant.cpp.evaluator
+│   │   │   │   │   │   ├── make_circulant.cpp.expression
+│   │   │   │   │   │   ├── make_circulant.cpp.main
+│   │   │   │   │   │   ├── make_circulant.cpp.preamble
+│   │   │   │   │   │   ├── make_circulant.cpp.traits
+│   │   │   │   │   │   ├── make_circulant2.cpp
+│   │   │   │   │   │   ├── matrixfree_cg.cpp
+│   │   │   │   │   │   ├── nullary_indexing.cpp
+│   │   │   │   │   │   ├── tut_arithmetic_add_sub.cpp
+│   │   │   │   │   │   ├── tut_arithmetic_dot_cross.cpp
+│   │   │   │   │   │   ├── tut_arithmetic_matrix_mul.cpp
+│   │   │   │   │   │   ├── tut_arithmetic_redux_basic.cpp
+│   │   │   │   │   │   ├── tut_arithmetic_scalar_mul_div.cpp
+│   │   │   │   │   │   ├── tut_matrix_coefficient_accessors.cpp
+│   │   │   │   │   │   ├── tut_matrix_resize.cpp
+│   │   │   │   │   │   ├── tut_matrix_resize_fixed_size.cpp
+│   │   │   │   │   ├── ftv2node.png
+│   │   │   │   │   ├── ftv2pnode.png
+│   │   │   │   │   ├── snippets
+│   │   │   │   │   │   ├── .krazy
+│   │   │   │   │   │   ├── AngleAxis_mimic_euler.cpp
+│   │   │   │   │   │   ├── Array_initializer_list_23_cxx11.cpp
+│   │   │   │   │   │   ├── Array_initializer_list_vector_cxx11.cpp
+│   │   │   │   │   │   ├── Array_variadic_ctor_cxx11.cpp
+│   │   │   │   │   │   ├── BiCGSTAB_simple.cpp
+│   │   │   │   │   │   ├── BiCGSTAB_step_by_step.cpp
+│   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   ├── ColPivHouseholderQR_solve.cpp
+│   │   │   │   │   │   ├── ComplexEigenSolver_compute.cpp
+│   │   │   │   │   │   ├── ComplexEigenSolver_eigenvalues.cpp
+│   │   │   │   │   │   ├── ComplexEigenSolver_eigenvectors.cpp
+│   │   │   │   │   │   ├── ComplexSchur_compute.cpp
+│   │   │   │   │   │   ├── ComplexSchur_matrixT.cpp
+│   │   │   │   │   │   ├── ComplexSchur_matrixU.cpp
+│   │   │   │   │   │   ├── Cwise_abs.cpp
+│   │   │   │   │   │   ├── Cwise_abs2.cpp
+│   │   │   │   │   │   ├── Cwise_acos.cpp
+│   │   │   │   │   │   ├── Cwise_arg.cpp
+│   │   │   │   │   │   ├── Cwise_array_power_array.cpp
+│   │   │   │   │   │   ├── Cwise_asin.cpp
+│   │   │   │   │   │   ├── Cwise_atan.cpp
+│   │   │   │   │   │   ├── Cwise_boolean_and.cpp
+│   │   │   │   │   │   ├── Cwise_boolean_not.cpp
+│   │   │   │   │   │   ├── Cwise_boolean_or.cpp
+│   │   │   │   │   │   ├── Cwise_boolean_xor.cpp
+│   │   │   │   │   │   ├── Cwise_ceil.cpp
+│   │   │   │   │   │   ├── Cwise_cos.cpp
+│   │   │   │   │   │   ├── Cwise_cosh.cpp
+│   │   │   │   │   │   ├── Cwise_cube.cpp
+│   │   │   │   │   │   ├── Cwise_equal_equal.cpp
+│   │   │   │   │   │   ├── Cwise_exp.cpp
+│   │   │   │   │   │   ├── Cwise_floor.cpp
+│   │   │   │   │   │   ├── Cwise_greater.cpp
+│   │   │   │   │   │   ├── Cwise_greater_equal.cpp
+│   │   │   │   │   │   ├── Cwise_inverse.cpp
+│   │   │   │   │   │   ├── Cwise_isFinite.cpp
+│   │   │   │   │   │   ├── Cwise_isInf.cpp
+│   │   │   │   │   │   ├── Cwise_isNaN.cpp
+│   │   │   │   │   │   ├── Cwise_less.cpp
+│   │   │   │   │   │   ├── Cwise_less_equal.cpp
+│   │   │   │   │   │   ├── Cwise_log.cpp
+│   │   │   │   │   │   ├── Cwise_log10.cpp
+│   │   │   │   │   │   ├── Cwise_max.cpp
+│   │   │   │   │   │   ├── Cwise_min.cpp
+│   │   │   │   │   │   ├── Cwise_minus.cpp
+│   │   │   │   │   │   ├── Cwise_minus_equal.cpp
+│   │   │   │   │   │   ├── Cwise_not_equal.cpp
+│   │   │   │   │   │   ├── Cwise_plus.cpp
+│   │   │   │   │   │   ├── Cwise_plus_equal.cpp
+│   │   │   │   │   │   ├── Cwise_pow.cpp
+│   │   │   │   │   │   ├── Cwise_product.cpp
+│   │   │   │   │   │   ├── Cwise_quotient.cpp
+│   │   │   │   │   │   ├── Cwise_rint.cpp
+│   │   │   │   │   │   ├── Cwise_round.cpp
+│   │   │   │   │   │   ├── Cwise_scalar_power_array.cpp
+│   │   │   │   │   │   ├── Cwise_sign.cpp
+│   │   │   │   │   │   ├── Cwise_sin.cpp
+│   │   │   │   │   │   ├── Cwise_sinh.cpp
+│   │   │   │   │   │   ├── Cwise_slash_equal.cpp
+│   │   │   │   │   │   ├── Cwise_sqrt.cpp
+│   │   │   │   │   │   ├── Cwise_square.cpp
+│   │   │   │   │   │   ├── Cwise_tan.cpp
+│   │   │   │   │   │   ├── Cwise_tanh.cpp
+│   │   │   │   │   │   ├── Cwise_times_equal.cpp
+│   │   │   │   │   │   ├── DenseBase_LinSpaced.cpp
+│   │   │   │   │   │   ├── DenseBase_LinSpacedInt.cpp
+│   │   │   │   │   │   ├── DenseBase_LinSpaced_seq_deprecated.cpp
+│   │   │   │   │   │   ├── DenseBase_setLinSpaced.cpp
+│   │   │   │   │   │   ├── DirectionWise_hnormalized.cpp
+│   │   │   │   │   │   ├── DirectionWise_replicate.cpp
+│   │   │   │   │   │   ├── DirectionWise_replicate_int.cpp
+│   │   │   │   │   │   ├── EigenSolver_EigenSolver_MatrixType.cpp
+│   │   │   │   │   │   ├── EigenSolver_compute.cpp
+│   │   │   │   │   │   ├── EigenSolver_eigenvalues.cpp
+│   │   │   │   │   │   ├── EigenSolver_eigenvectors.cpp
+│   │   │   │   │   │   ├── EigenSolver_pseudoEigenvectors.cpp
+│   │   │   │   │   │   ├── FullPivHouseholderQR_solve.cpp
+│   │   │   │   │   │   ├── FullPivLU_image.cpp
+│   │   │   │   │   │   ├── FullPivLU_kernel.cpp
+│   │   │   │   │   │   ├── FullPivLU_solve.cpp
+│   │   │   │   │   │   ├── GeneralizedEigenSolver.cpp
+│   │   │   │   │   │   ├── HessenbergDecomposition_compute.cpp
+│   │   │   │   │   │   ├── HessenbergDecomposition_matrixH.cpp
+│   │   │   │   │   │   ├── HessenbergDecomposition_packedMatrix.cpp
+│   │   │   │   │   │   ├── HouseholderQR_householderQ.cpp
+│   │   │   │   │   │   ├── HouseholderQR_solve.cpp
+│   │   │   │   │   │   ├── HouseholderSequence_HouseholderSequence.cpp
+│   │   │   │   │   │   ├── IOFormat.cpp
+│   │   │   │   │   │   ├── JacobiSVD_basic.cpp
+│   │   │   │   │   │   ├── Jacobi_makeGivens.cpp
+│   │   │   │   │   │   ├── Jacobi_makeJacobi.cpp
+│   │   │   │   │   │   ├── LLT_example.cpp
+│   │   │   │   │   │   ├── LLT_solve.cpp
+│   │   │   │   │   │   ├── LeastSquaresNormalEquations.cpp
+│   │   │   │   │   │   ├── LeastSquaresQR.cpp
+│   │   │   │   │   │   ├── Map_general_stride.cpp
+│   │   │   │   │   │   ├── Map_inner_stride.cpp
+│   │   │   │   │   │   ├── Map_outer_stride.cpp
+│   │   │   │   │   │   ├── Map_placement_new.cpp
+│   │   │   │   │   │   ├── Map_simple.cpp
+│   │   │   │   │   │   ├── MatrixBase_adjoint.cpp
+│   │   │   │   │   │   ├── MatrixBase_all.cpp
+│   │   │   │   │   │   ├── MatrixBase_applyOnTheLeft.cpp
+│   │   │   │   │   │   ├── MatrixBase_applyOnTheRight.cpp
+│   │   │   │   │   │   ├── MatrixBase_array.cpp
+│   │   │   │   │   │   ├── MatrixBase_array_const.cpp
+│   │   │   │   │   │   ├── MatrixBase_asDiagonal.cpp
+│   │   │   │   │   │   ├── MatrixBase_block_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_block_int_int_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_bottomLeftCorner_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_bottomRightCorner_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_bottomRows_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_cast.cpp
+│   │   │   │   │   │   ├── MatrixBase_col.cpp
+│   │   │   │   │   │   ├── MatrixBase_colwise.cpp
+│   │   │   │   │   │   ├── MatrixBase_colwise_iterator_cxx11.cpp
+│   │   │   │   │   │   ├── MatrixBase_computeInverseAndDetWithCheck.cpp
+│   │   │   │   │   │   ├── MatrixBase_computeInverseWithCheck.cpp
+│   │   │   │   │   │   ├── MatrixBase_cwiseAbs.cpp
+│   │   │   │   │   │   ├── MatrixBase_cwiseAbs2.cpp
+│   │   │   │   │   │   ├── MatrixBase_cwiseArg.cpp
+│   │   │   │   │   │   ├── MatrixBase_cwiseEqual.cpp
+│   │   │   │   │   │   ├── MatrixBase_cwiseInverse.cpp
+│   │   │   │   │   │   ├── MatrixBase_cwiseMax.cpp
+│   │   │   │   │   │   ├── MatrixBase_cwiseMin.cpp
+│   │   │   │   │   │   ├── MatrixBase_cwiseNotEqual.cpp
+│   │   │   │   │   │   ├── MatrixBase_cwiseProduct.cpp
+│   │   │   │   │   │   ├── MatrixBase_cwiseQuotient.cpp
+│   │   │   │   │   │   ├── MatrixBase_cwiseSign.cpp
+│   │   │   │   │   │   ├── MatrixBase_cwiseSqrt.cpp
+│   │   │   │   │   │   ├── MatrixBase_diagonal.cpp
+│   │   │   │   │   │   ├── MatrixBase_diagonal_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_diagonal_template_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_eigenvalues.cpp
+│   │   │   │   │   │   ├── MatrixBase_end_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_eval.cpp
+│   │   │   │   │   │   ├── MatrixBase_fixedBlock_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_hnormalized.cpp
+│   │   │   │   │   │   ├── MatrixBase_homogeneous.cpp
+│   │   │   │   │   │   ├── MatrixBase_identity.cpp
+│   │   │   │   │   │   ├── MatrixBase_identity_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_inverse.cpp
+│   │   │   │   │   │   ├── MatrixBase_isDiagonal.cpp
+│   │   │   │   │   │   ├── MatrixBase_isIdentity.cpp
+│   │   │   │   │   │   ├── MatrixBase_isOnes.cpp
+│   │   │   │   │   │   ├── MatrixBase_isOrthogonal.cpp
+│   │   │   │   │   │   ├── MatrixBase_isUnitary.cpp
+│   │   │   │   │   │   ├── MatrixBase_isZero.cpp
+│   │   │   │   │   │   ├── MatrixBase_leftCols_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_noalias.cpp
+│   │   │   │   │   │   ├── MatrixBase_ones.cpp
+│   │   │   │   │   │   ├── MatrixBase_ones_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_ones_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_operatorNorm.cpp
+│   │   │   │   │   │   ├── MatrixBase_prod.cpp
+│   │   │   │   │   │   ├── MatrixBase_random.cpp
+│   │   │   │   │   │   ├── MatrixBase_random_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_random_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_replicate.cpp
+│   │   │   │   │   │   ├── MatrixBase_replicate_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_reshaped_auto.cpp
+│   │   │   │   │   │   ├── MatrixBase_reshaped_fixed.cpp
+│   │   │   │   │   │   ├── MatrixBase_reshaped_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_reshaped_to_vector.cpp
+│   │   │   │   │   │   ├── MatrixBase_reverse.cpp
+│   │   │   │   │   │   ├── MatrixBase_rightCols_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_row.cpp
+│   │   │   │   │   │   ├── MatrixBase_rowwise.cpp
+│   │   │   │   │   │   ├── MatrixBase_segment_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_select.cpp
+│   │   │   │   │   │   ├── MatrixBase_selfadjointView.cpp
+│   │   │   │   │   │   ├── MatrixBase_set.cpp
+│   │   │   │   │   │   ├── MatrixBase_setIdentity.cpp
+│   │   │   │   │   │   ├── MatrixBase_setOnes.cpp
+│   │   │   │   │   │   ├── MatrixBase_setRandom.cpp
+│   │   │   │   │   │   ├── MatrixBase_setZero.cpp
+│   │   │   │   │   │   ├── MatrixBase_start_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_bottomRows.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_end.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_int_block_int_int_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_int_bottomLeftCorner.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_int_bottomLeftCorner_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_int_bottomRightCorner.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_int_bottomRightCorner_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_int_topLeftCorner.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_int_topLeftCorner_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_int_topRightCorner.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_int_topRightCorner_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_leftCols.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_rightCols.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_segment.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_start.cpp
+│   │   │   │   │   │   ├── MatrixBase_template_int_topRows.cpp
+│   │   │   │   │   │   ├── MatrixBase_topLeftCorner_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_topRightCorner_int_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_topRows_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_transpose.cpp
+│   │   │   │   │   │   ├── MatrixBase_triangularView.cpp
+│   │   │   │   │   │   ├── MatrixBase_zero.cpp
+│   │   │   │   │   │   ├── MatrixBase_zero_int.cpp
+│   │   │   │   │   │   ├── MatrixBase_zero_int_int.cpp
+│   │   │   │   │   │   ├── Matrix_Map_stride.cpp
+│   │   │   │   │   │   ├── Matrix_initializer_list_23_cxx11.cpp
+│   │   │   │   │   │   ├── Matrix_initializer_list_vector_cxx11.cpp
+│   │   │   │   │   │   ├── Matrix_resize_NoChange_int.cpp
+│   │   │   │   │   │   ├── Matrix_resize_int.cpp
+│   │   │   │   │   │   ├── Matrix_resize_int_NoChange.cpp
+│   │   │   │   │   │   ├── Matrix_resize_int_int.cpp
+│   │   │   │   │   │   ├── Matrix_setConstant_int.cpp
+│   │   │   │   │   │   ├── Matrix_setConstant_int_int.cpp
+│   │   │   │   │   │   ├── Matrix_setIdentity_int_int.cpp
+│   │   │   │   │   │   ├── Matrix_setOnes_int.cpp
+│   │   │   │   │   │   ├── Matrix_setOnes_int_int.cpp
+│   │   │   │   │   │   ├── Matrix_setRandom_int.cpp
+│   │   │   │   │   │   ├── Matrix_setRandom_int_int.cpp
+│   │   │   │   │   │   ├── Matrix_setZero_int.cpp
+│   │   │   │   │   │   ├── Matrix_setZero_int_int.cpp
+│   │   │   │   │   │   ├── Matrix_variadic_ctor_cxx11.cpp
+│   │   │   │   │   │   ├── PartialPivLU_solve.cpp
+│   │   │   │   │   │   ├── PartialRedux_count.cpp
+│   │   │   │   │   │   ├── PartialRedux_maxCoeff.cpp
+│   │   │   │   │   │   ├── PartialRedux_minCoeff.cpp
+│   │   │   │   │   │   ├── PartialRedux_norm.cpp
+│   │   │   │   │   │   ├── PartialRedux_prod.cpp
+│   │   │   │   │   │   ├── PartialRedux_squaredNorm.cpp
+│   │   │   │   │   │   ├── PartialRedux_sum.cpp
+│   │   │   │   │   │   ├── RealQZ_compute.cpp
+│   │   │   │   │   │   ├── RealSchur_RealSchur_MatrixType.cpp
+│   │   │   │   │   │   ├── RealSchur_compute.cpp
+│   │   │   │   │   │   ├── SelfAdjointEigenSolver_SelfAdjointEigenSolver.cpp
+│   │   │   │   │   │   ├── SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.cpp
+│   │   │   │   │   │   ├── SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.cpp
+│   │   │   │   │   │   ├── SelfAdjointEigenSolver_compute_MatrixType.cpp
+│   │   │   │   │   │   ├── SelfAdjointEigenSolver_compute_MatrixType2.cpp
+│   │   │   │   │   │   ├── SelfAdjointEigenSolver_eigenvalues.cpp
+│   │   │   │   │   │   ├── SelfAdjointEigenSolver_eigenvectors.cpp
+│   │   │   │   │   │   ├── SelfAdjointEigenSolver_operatorInverseSqrt.cpp
+│   │   │   │   │   │   ├── SelfAdjointEigenSolver_operatorSqrt.cpp
+│   │   │   │   │   │   ├── SelfAdjointView_eigenvalues.cpp
+│   │   │   │   │   │   ├── SelfAdjointView_operatorNorm.cpp
+│   │   │   │   │   │   ├── Slicing_arrayexpr.cpp
+│   │   │   │   │   │   ├── Slicing_custom_padding_cxx11.cpp
+│   │   │   │   │   │   ├── Slicing_rawarray_cxx11.cpp
+│   │   │   │   │   │   ├── Slicing_stdvector_cxx11.cpp
+│   │   │   │   │   │   ├── SparseMatrix_coeffs.cpp
+│   │   │   │   │   │   ├── TopicAliasing_block.cpp
+│   │   │   │   │   │   ├── TopicAliasing_block_correct.cpp
+│   │   │   │   │   │   ├── TopicAliasing_cwise.cpp
+│   │   │   │   │   │   ├── TopicAliasing_mult1.cpp
+│   │   │   │   │   │   ├── TopicAliasing_mult2.cpp
+│   │   │   │   │   │   ├── TopicAliasing_mult3.cpp
+│   │   │   │   │   │   ├── TopicAliasing_mult4.cpp
+│   │   │   │   │   │   ├── TopicAliasing_mult5.cpp
+│   │   │   │   │   │   ├── TopicStorageOrders_example.cpp
+│   │   │   │   │   │   ├── Triangular_solve.cpp
+│   │   │   │   │   │   ├── Tridiagonalization_Tridiagonalization_MatrixType.cpp
+│   │   │   │   │   │   ├── Tridiagonalization_compute.cpp
+│   │   │   │   │   │   ├── Tridiagonalization_decomposeInPlace.cpp
+│   │   │   │   │   │   ├── Tridiagonalization_diagonal.cpp
+│   │   │   │   │   │   ├── Tridiagonalization_householderCoefficients.cpp
+│   │   │   │   │   │   ├── Tridiagonalization_packedMatrix.cpp
+│   │   │   │   │   │   ├── Tutorial_AdvancedInitialization_Block.cpp
+│   │   │   │   │   │   ├── Tutorial_AdvancedInitialization_CommaTemporary.cpp
+│   │   │   │   │   │   ├── Tutorial_AdvancedInitialization_Join.cpp
+│   │   │   │   │   │   ├── Tutorial_AdvancedInitialization_LinSpaced.cpp
+│   │   │   │   │   │   ├── Tutorial_AdvancedInitialization_ThreeWays.cpp
+│   │   │   │   │   │   ├── Tutorial_AdvancedInitialization_Zero.cpp
+│   │   │   │   │   │   ├── Tutorial_Map_rowmajor.cpp
+│   │   │   │   │   │   ├── Tutorial_Map_using.cpp
+│   │   │   │   │   │   ├── Tutorial_ReshapeMat2Mat.cpp
+│   │   │   │   │   │   ├── Tutorial_ReshapeMat2Vec.cpp
+│   │   │   │   │   │   ├── Tutorial_SlicingCol.cpp
+│   │   │   │   │   │   ├── Tutorial_SlicingVec.cpp
+│   │   │   │   │   │   ├── Tutorial_commainit_01.cpp
+│   │   │   │   │   │   ├── Tutorial_commainit_01b.cpp
+│   │   │   │   │   │   ├── Tutorial_commainit_02.cpp
+│   │   │   │   │   │   ├── Tutorial_range_for_loop_1d_cxx11.cpp
+│   │   │   │   │   │   ├── Tutorial_range_for_loop_2d_cxx11.cpp
+│   │   │   │   │   │   ├── Tutorial_reshaped_vs_resize_1.cpp
+│   │   │   │   │   │   ├── Tutorial_reshaped_vs_resize_2.cpp
+│   │   │   │   │   │   ├── Tutorial_solve_matrix_inverse.cpp
+│   │   │   │   │   │   ├── Tutorial_solve_multiple_rhs.cpp
+│   │   │   │   │   │   ├── Tutorial_solve_reuse_decomposition.cpp
+│   │   │   │   │   │   ├── Tutorial_solve_singular.cpp
+│   │   │   │   │   │   ├── Tutorial_solve_triangular.cpp
+│   │   │   │   │   │   ├── Tutorial_solve_triangular_inplace.cpp
+│   │   │   │   │   │   ├── Tutorial_std_sort.cpp
+│   │   │   │   │   │   ├── Tutorial_std_sort_rows_cxx11.cpp
+│   │   │   │   │   │   ├── VectorwiseOp_homogeneous.cpp
+│   │   │   │   │   │   ├── Vectorwise_reverse.cpp
+│   │   │   │   │   │   ├── class_FullPivLU.cpp
+│   │   │   │   │   │   ├── compile_snippet.cpp.in
+│   │   │   │   │   │   ├── tut_arithmetic_redux_minmax.cpp
+│   │   │   │   │   │   ├── tut_arithmetic_transpose_aliasing.cpp
+│   │   │   │   │   │   ├── tut_arithmetic_transpose_conjugate.cpp
+│   │   │   │   │   │   ├── tut_arithmetic_transpose_inplace.cpp
+│   │   │   │   │   │   ├── tut_matrix_assignment_resizing.cpp
+│   │   │   │   │   ├── special_examples
+│   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   ├── Tutorial_sparse_example.cpp
+│   │   │   │   │   │   ├── Tutorial_sparse_example_details.cpp
+│   │   │   │   │   │   ├── random_cpp11.cpp
+│   │   │   │   │   ├── tutorial.cpp
+│   │   │   │   ├── eigen3.pc.in
+│   │   │   │   ├── failtest
+│   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   ├── bdcsvd_int.cpp
+│   │   │   │   │   ├── block_nonconst_ctor_on_const_xpr_0.cpp
+│   │   │   │   │   ├── block_nonconst_ctor_on_const_xpr_1.cpp
+│   │   │   │   │   ├── block_nonconst_ctor_on_const_xpr_2.cpp
+│   │   │   │   │   ├── block_on_const_type_actually_const_0.cpp
+│   │   │   │   │   ├── block_on_const_type_actually_const_1.cpp
+│   │   │   │   │   ├── colpivqr_int.cpp
+│   │   │   │   │   ├── const_qualified_block_method_retval_0.cpp
+│   │   │   │   │   ├── const_qualified_block_method_retval_1.cpp
+│   │   │   │   │   ├── const_qualified_diagonal_method_retval.cpp
+│   │   │   │   │   ├── const_qualified_transpose_method_retval.cpp
+│   │   │   │   │   ├── cwiseunaryview_nonconst_ctor_on_const_xpr.cpp
+│   │   │   │   │   ├── cwiseunaryview_on_const_type_actually_const.cpp
+│   │   │   │   │   ├── diagonal_nonconst_ctor_on_const_xpr.cpp
+│   │   │   │   │   ├── diagonal_on_const_type_actually_const.cpp
+│   │   │   │   │   ├── eigensolver_cplx.cpp
+│   │   │   │   │   ├── eigensolver_int.cpp
+│   │   │   │   │   ├── failtest_sanity_check.cpp
+│   │   │   │   │   ├── fullpivlu_int.cpp
+│   │   │   │   │   ├── fullpivqr_int.cpp
+│   │   │   │   │   ├── initializer_list_1.cpp
+│   │   │   │   │   ├── initializer_list_2.cpp
+│   │   │   │   │   ├── jacobisvd_int.cpp
+│   │   │   │   │   ├── ldlt_int.cpp
+│   │   │   │   │   ├── llt_int.cpp
+│   │   │   │   │   ├── map_nonconst_ctor_on_const_ptr_0.cpp
+│   │   │   │   │   ├── map_nonconst_ctor_on_const_ptr_1.cpp
+│   │   │   │   │   ├── map_nonconst_ctor_on_const_ptr_2.cpp
+│   │   │   │   │   ├── map_nonconst_ctor_on_const_ptr_3.cpp
+│   │   │   │   │   ├── map_nonconst_ctor_on_const_ptr_4.cpp
+│   │   │   │   │   ├── map_on_const_type_actually_const_0.cpp
+│   │   │   │   │   ├── map_on_const_type_actually_const_1.cpp
+│   │   │   │   │   ├── partialpivlu_int.cpp
+│   │   │   │   │   ├── qr_int.cpp
+│   │   │   │   │   ├── ref_1.cpp
+│   │   │   │   │   ├── ref_2.cpp
+│   │   │   │   │   ├── ref_3.cpp
+│   │   │   │   │   ├── ref_4.cpp
+│   │   │   │   │   ├── ref_5.cpp
+│   │   │   │   │   ├── selfadjointview_nonconst_ctor_on_const_xpr.cpp
+│   │   │   │   │   ├── selfadjointview_on_const_type_actually_const.cpp
+│   │   │   │   │   ├── sparse_ref_1.cpp
+│   │   │   │   │   ├── sparse_ref_2.cpp
+│   │   │   │   │   ├── sparse_ref_3.cpp
+│   │   │   │   │   ├── sparse_ref_4.cpp
+│   │   │   │   │   ├── sparse_ref_5.cpp
+│   │   │   │   │   ├── sparse_storage_mismatch.cpp
+│   │   │   │   │   ├── swap_1.cpp
+│   │   │   │   │   ├── swap_2.cpp
+│   │   │   │   │   ├── ternary_1.cpp
+│   │   │   │   │   ├── ternary_2.cpp
+│   │   │   │   │   ├── transpose_nonconst_ctor_on_const_xpr.cpp
+│   │   │   │   │   ├── transpose_on_const_type_actually_const.cpp
+│   │   │   │   │   ├── triangularview_nonconst_ctor_on_const_xpr.cpp
+│   │   │   │   │   ├── triangularview_on_const_type_actually_const.cpp
+│   │   │   │   ├── lapack
+│   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   ├── cholesky.cpp
+│   │   │   │   │   ├── clacgv.f
+│   │   │   │   │   ├── cladiv.f
+│   │   │   │   │   ├── clarf.f
+│   │   │   │   │   ├── clarfb.f
+│   │   │   │   │   ├── clarfg.f
+│   │   │   │   │   ├── clarft.f
+│   │   │   │   │   ├── complex_double.cpp
+│   │   │   │   │   ├── complex_single.cpp
+│   │   │   │   │   ├── dladiv.f
+│   │   │   │   │   ├── dlamch.f
+│   │   │   │   │   ├── dlapy2.f
+│   │   │   │   │   ├── dlapy3.f
+│   │   │   │   │   ├── dlarf.f
+│   │   │   │   │   ├── dlarfb.f
+│   │   │   │   │   ├── dlarfg.f
+│   │   │   │   │   ├── dlarft.f
+│   │   │   │   │   ├── double.cpp
+│   │   │   │   │   ├── dsecnd_NONE.f
+│   │   │   │   │   ├── eigenvalues.cpp
+│   │   │   │   │   ├── ilaclc.f
+│   │   │   │   │   ├── ilaclr.f
+│   │   │   │   │   ├── iladlc.f
+│   │   │   │   │   ├── iladlr.f
+│   │   │   │   │   ├── ilaslc.f
+│   │   │   │   │   ├── ilaslr.f
+│   │   │   │   │   ├── ilazlc.f
+│   │   │   │   │   ├── ilazlr.f
+│   │   │   │   │   ├── lapack_common.h
+│   │   │   │   │   ├── lu.cpp
+│   │   │   │   │   ├── second_NONE.f
+│   │   │   │   │   ├── single.cpp
+│   │   │   │   │   ├── sladiv.f
+│   │   │   │   │   ├── slamch.f
+│   │   │   │   │   ├── slapy2.f
+│   │   │   │   │   ├── slapy3.f
+│   │   │   │   │   ├── slarf.f
+│   │   │   │   │   ├── slarfb.f
+│   │   │   │   │   ├── slarfg.f
+│   │   │   │   │   ├── slarft.f
+│   │   │   │   │   ├── svd.cpp
+│   │   │   │   │   ├── zlacgv.f
+│   │   │   │   │   ├── zladiv.f
+│   │   │   │   │   ├── zlarf.f
+│   │   │   │   │   ├── zlarfb.f
+│   │   │   │   │   ├── zlarfg.f
+│   │   │   │   │   ├── zlarft.f
+│   │   │   │   ├── scripts
+│   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   ├── cdashtesting.cmake.in
+│   │   │   │   │   ├── check.in
+│   │   │   │   │   ├── debug.in
+│   │   │   │   │   ├── eigen_gen_credits.cpp
+│   │   │   │   │   ├── eigen_gen_docs
+│   │   │   │   │   ├── eigen_gen_split_test_help.cmake
+│   │   │   │   │   ├── eigen_monitor_perf.sh
+│   │   │   │   │   ├── release.in
+│   │   │   │   │   ├── relicense.py
+│   │   │   │   ├── signature_of_eigen3_matrix_library
+│   │   │   │   ├── test
+│   │   │   │   │   ├── AnnoyingScalar.h
+│   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   ├── MovableScalar.h
+│   │   │   │   │   ├── SafeScalar.h
+│   │   │   │   │   ├── adjoint.cpp
+│   │   │   │   │   ├── array_cwise.cpp
+│   │   │   │   │   ├── array_for_matrix.cpp
+│   │   │   │   │   ├── array_of_string.cpp
+│   │   │   │   │   ├── array_replicate.cpp
+│   │   │   │   │   ├── array_reverse.cpp
+│   │   │   │   │   ├── bandmatrix.cpp
+│   │   │   │   │   ├── basicstuff.cpp
+│   │   │   │   │   ├── bdcsvd.cpp
+│   │   │   │   │   ├── bfloat16_float.cpp
+│   │   │   │   │   ├── bicgstab.cpp
+│   │   │   │   │   ├── blasutil.cpp
+│   │   │   │   │   ├── block.cpp
+│   │   │   │   │   ├── boostmultiprec.cpp
+│   │   │   │   │   ├── bug1213.cpp
+│   │   │   │   │   ├── bug1213.h
+│   │   │   │   │   ├── bug1213_main.cpp
+│   │   │   │   │   ├── cholesky.cpp
+│   │   │   │   │   ├── cholmod_support.cpp
+│   │   │   │   │   ├── clz.cpp
+│   │   │   │   │   ├── commainitializer.cpp
+│   │   │   │   │   ├── conjugate_gradient.cpp
+│   │   │   │   │   ├── conservative_resize.cpp
+│   │   │   │   │   ├── constructor.cpp
+│   │   │   │   │   ├── corners.cpp
+│   │   │   │   │   ├── ctorleak.cpp
+│   │   │   │   │   ├── denseLM.cpp
+│   │   │   │   │   ├── dense_storage.cpp
+│   │   │   │   │   ├── determinant.cpp
+│   │   │   │   │   ├── diagonal.cpp
+│   │   │   │   │   ├── diagonal_matrix_variadic_ctor.cpp
+│   │   │   │   │   ├── diagonalmatrices.cpp
+│   │   │   │   │   ├── dontalign.cpp
+│   │   │   │   │   ├── dynalloc.cpp
+│   │   │   │   │   ├── eigen2support.cpp
+│   │   │   │   │   ├── eigensolver_complex.cpp
+│   │   │   │   │   ├── eigensolver_generalized_real.cpp
+│   │   │   │   │   ├── eigensolver_generic.cpp
+│   │   │   │   │   ├── eigensolver_selfadjoint.cpp
+│   │   │   │   │   ├── evaluator_common.h
+│   │   │   │   │   ├── evaluators.cpp
+│   │   │   │   │   ├── exceptions.cpp
+│   │   │   │   │   ├── fastmath.cpp
+│   │   │   │   │   ├── first_aligned.cpp
+│   │   │   │   │   ├── geo_alignedbox.cpp
+│   │   │   │   │   ├── geo_eulerangles.cpp
+│   │   │   │   │   ├── geo_homogeneous.cpp
+│   │   │   │   │   ├── geo_hyperplane.cpp
+│   │   │   │   │   ├── geo_orthomethods.cpp
+│   │   │   │   │   ├── geo_parametrizedline.cpp
+│   │   │   │   │   ├── geo_quaternion.cpp
+│   │   │   │   │   ├── geo_transformations.cpp
+│   │   │   │   │   ├── gpu_basic.cu
+│   │   │   │   │   ├── gpu_common.h
+│   │   │   │   │   ├── half_float.cpp
+│   │   │   │   │   ├── hessenberg.cpp
+│   │   │   │   │   ├── householder.cpp
+│   │   │   │   │   ├── incomplete_cholesky.cpp
+│   │   │   │   │   ├── indexed_view.cpp
+│   │   │   │   │   ├── initializer_list_construction.cpp
+│   │   │   │   │   ├── inplace_decomposition.cpp
+│   │   │   │   │   ├── integer_types.cpp
+│   │   │   │   │   ├── inverse.cpp
+│   │   │   │   │   ├── io.cpp
+│   │   │   │   │   ├── is_same_dense.cpp
+│   │   │   │   │   ├── jacobi.cpp
+│   │   │   │   │   ├── jacobisvd.cpp
+│   │   │   │   │   ├── klu_support.cpp
+│   │   │   │   │   ├── linearstructure.cpp
+│   │   │   │   │   ├── lscg.cpp
+│   │   │   │   │   ├── lu.cpp
+│   │   │   │   │   ├── main.h
+│   │   │   │   │   ├── mapped_matrix.cpp
+│   │   │   │   │   ├── mapstaticmethods.cpp
+│   │   │   │   │   ├── mapstride.cpp
+│   │   │   │   │   ├── meta.cpp
+│   │   │   │   │   ├── metis_support.cpp
+│   │   │   │   │   ├── miscmatrices.cpp
+│   │   │   │   │   ├── mixingtypes.cpp
+│   │   │   │   │   ├── mpl2only.cpp
+│   │   │   │   │   ├── nestbyvalue.cpp
+│   │   │   │   │   ├── nesting_ops.cpp
+│   │   │   │   │   ├── nomalloc.cpp
+│   │   │   │   │   ├── nullary.cpp
+│   │   │   │   │   ├── num_dimensions.cpp
+│   │   │   │   │   ├── numext.cpp
+│   │   │   │   │   ├── packetmath.cpp
+│   │   │   │   │   ├── packetmath_test_shared.h
+│   │   │   │   │   ├── pardiso_support.cpp
+│   │   │   │   │   ├── pastix_support.cpp
+│   │   │   │   │   ├── permutationmatrices.cpp
+│   │   │   │   │   ├── prec_inverse_4x4.cpp
+│   │   │   │   │   ├── product.h
+│   │   │   │   │   ├── product_extra.cpp
+│   │   │   │   │   ├── product_large.cpp
+│   │   │   │   │   ├── product_mmtr.cpp
+│   │   │   │   │   ├── product_notemporary.cpp
+│   │   │   │   │   ├── product_selfadjoint.cpp
+│   │   │   │   │   ├── product_small.cpp
+│   │   │   │   │   ├── product_symm.cpp
+│   │   │   │   │   ├── product_syrk.cpp
+│   │   │   │   │   ├── product_trmm.cpp
+│   │   │   │   │   ├── product_trmv.cpp
+│   │   │   │   │   ├── product_trsolve.cpp
+│   │   │   │   │   ├── qr.cpp
+│   │   │   │   │   ├── qr_colpivoting.cpp
+│   │   │   │   │   ├── qr_fullpivoting.cpp
+│   │   │   │   │   ├── qtvector.cpp
+│   │   │   │   │   ├── rand.cpp
+│   │   │   │   │   ├── random_without_cast_overflow.h
+│   │   │   │   │   ├── real_qz.cpp
+│   │   │   │   │   ├── redux.cpp
+│   │   │   │   │   ├── ref.cpp
+│   │   │   │   │   ├── reshape.cpp
+│   │   │   │   │   ├── resize.cpp
+│   │   │   │   │   ├── rvalue_types.cpp
+│   │   │   │   │   ├── schur_complex.cpp
+│   │   │   │   │   ├── schur_real.cpp
+│   │   │   │   │   ├── selfadjoint.cpp
+│   │   │   │   │   ├── simplicial_cholesky.cpp
+│   │   │   │   │   ├── sizeof.cpp
+│   │   │   │   │   ├── sizeoverflow.cpp
+│   │   │   │   │   ├── smallvectors.cpp
+│   │   │   │   │   ├── solverbase.h
+│   │   │   │   │   ├── sparse.h
+│   │   │   │   │   ├── sparseLM.cpp
+│   │   │   │   │   ├── sparse_basic.cpp
+│   │   │   │   │   ├── sparse_block.cpp
+│   │   │   │   │   ├── sparse_permutations.cpp
+│   │   │   │   │   ├── sparse_product.cpp
+│   │   │   │   │   ├── sparse_ref.cpp
+│   │   │   │   │   ├── sparse_solver.h
+│   │   │   │   │   ├── sparse_solvers.cpp
+│   │   │   │   │   ├── sparse_vector.cpp
+│   │   │   │   │   ├── sparselu.cpp
+│   │   │   │   │   ├── sparseqr.cpp
+│   │   │   │   │   ├── special_numbers.cpp
+│   │   │   │   │   ├── split_test_helper.h
+│   │   │   │   │   ├── spqr_support.cpp
+│   │   │   │   │   ├── stable_norm.cpp
+│   │   │   │   │   ├── stddeque.cpp
+│   │   │   │   │   ├── stddeque_overload.cpp
+│   │   │   │   │   ├── stdlist.cpp
+│   │   │   │   │   ├── stdlist_overload.cpp
+│   │   │   │   │   ├── stdvector.cpp
+│   │   │   │   │   ├── stdvector_overload.cpp
+│   │   │   │   │   ├── stl_iterators.cpp
+│   │   │   │   │   ├── superlu_support.cpp
+│   │   │   │   │   ├── svd_common.h
+│   │   │   │   │   ├── svd_fill.h
+│   │   │   │   │   ├── swap.cpp
+│   │   │   │   │   ├── symbolic_index.cpp
+│   │   │   │   │   ├── triangular.cpp
+│   │   │   │   │   ├── type_alias.cpp
+│   │   │   │   │   ├── umeyama.cpp
+│   │   │   │   │   ├── umfpack_support.cpp
+│   │   │   │   │   ├── unalignedcount.cpp
+│   │   │   │   │   ├── upperbidiagonalization.cpp
+│   │   │   │   │   ├── vectorization_logic.cpp
+│   │   │   │   │   ├── vectorwiseop.cpp
+│   │   │   │   │   ├── visitor.cpp
+│   │   │   │   │   ├── zerosized.cpp
+│   │   │   │   ├── unsupported
+│   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   ├── Eigen
+│   │   │   │   │   │   ├── AdolcForward
+│   │   │   │   │   │   ├── AlignedVector3
+│   │   │   │   │   │   ├── ArpackSupport
+│   │   │   │   │   │   ├── AutoDiff
+│   │   │   │   │   │   ├── BVH
+│   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   ├── CXX11
+│   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   ├── Tensor
+│   │   │   │   │   │   │   ├── TensorSymmetry
+│   │   │   │   │   │   │   ├── ThreadPool
+│   │   │   │   │   │   │   ├── src
+│   │   │   │   │   │   │   │   ├── Tensor
+│   │   │   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   │   │   ├── Tensor.h
+│   │   │   │   │   │   │   │   │   ├── TensorArgMax.h
+│   │   │   │   │   │   │   │   │   ├── TensorAssign.h
+│   │   │   │   │   │   │   │   │   ├── TensorBase.h
+│   │   │   │   │   │   │   │   │   ├── TensorBlock.h
+│   │   │   │   │   │   │   │   │   ├── TensorBroadcasting.h
+│   │   │   │   │   │   │   │   │   ├── TensorChipping.h
+│   │   │   │   │   │   │   │   │   ├── TensorConcatenation.h
+│   │   │   │   │   │   │   │   │   ├── TensorContraction.h
+│   │   │   │   │   │   │   │   │   ├── TensorContractionBlocking.h
+│   │   │   │   │   │   │   │   │   ├── TensorContractionCuda.h
+│   │   │   │   │   │   │   │   │   ├── TensorContractionGpu.h
+│   │   │   │   │   │   │   │   │   ├── TensorContractionMapper.h
+│   │   │   │   │   │   │   │   │   ├── TensorContractionSycl.h
+│   │   │   │   │   │   │   │   │   ├── TensorContractionThreadPool.h
+│   │   │   │   │   │   │   │   │   ├── TensorConversion.h
+│   │   │   │   │   │   │   │   │   ├── TensorConvolution.h
+│   │   │   │   │   │   │   │   │   ├── TensorConvolutionSycl.h
+│   │   │   │   │   │   │   │   │   ├── TensorCostModel.h
+│   │   │   │   │   │   │   │   │   ├── TensorCustomOp.h
+│   │   │   │   │   │   │   │   │   ├── TensorDevice.h
+│   │   │   │   │   │   │   │   │   ├── TensorDeviceCuda.h
+│   │   │   │   │   │   │   │   │   ├── TensorDeviceDefault.h
+│   │   │   │   │   │   │   │   │   ├── TensorDeviceGpu.h
+│   │   │   │   │   │   │   │   │   ├── TensorDeviceSycl.h
+│   │   │   │   │   │   │   │   │   ├── TensorDeviceThreadPool.h
+│   │   │   │   │   │   │   │   │   ├── TensorDimensionList.h
+│   │   │   │   │   │   │   │   │   ├── TensorDimensions.h
+│   │   │   │   │   │   │   │   │   ├── TensorEvalTo.h
+│   │   │   │   │   │   │   │   │   ├── TensorEvaluator.h
+│   │   │   │   │   │   │   │   │   ├── TensorExecutor.h
+│   │   │   │   │   │   │   │   │   ├── TensorExpr.h
+│   │   │   │   │   │   │   │   │   ├── TensorFFT.h
+│   │   │   │   │   │   │   │   │   ├── TensorFixedSize.h
+│   │   │   │   │   │   │   │   │   ├── TensorForcedEval.h
+│   │   │   │   │   │   │   │   │   ├── TensorForwardDeclarations.h
+│   │   │   │   │   │   │   │   │   ├── TensorFunctors.h
+│   │   │   │   │   │   │   │   │   ├── TensorGenerator.h
+│   │   │   │   │   │   │   │   │   ├── TensorGlobalFunctions.h
+│   │   │   │   │   │   │   │   │   ├── TensorGpuHipCudaDefines.h
+│   │   │   │   │   │   │   │   │   ├── TensorGpuHipCudaUndefines.h
+│   │   │   │   │   │   │   │   │   ├── TensorIO.h
+│   │   │   │   │   │   │   │   │   ├── TensorImagePatch.h
+│   │   │   │   │   │   │   │   │   ├── TensorIndexList.h
+│   │   │   │   │   │   │   │   │   ├── TensorInflation.h
+│   │   │   │   │   │   │   │   │   ├── TensorInitializer.h
+│   │   │   │   │   │   │   │   │   ├── TensorIntDiv.h
+│   │   │   │   │   │   │   │   │   ├── TensorLayoutSwap.h
+│   │   │   │   │   │   │   │   │   ├── TensorMacros.h
+│   │   │   │   │   │   │   │   │   ├── TensorMap.h
+│   │   │   │   │   │   │   │   │   ├── TensorMeta.h
+│   │   │   │   │   │   │   │   │   ├── TensorMorphing.h
+│   │   │   │   │   │   │   │   │   ├── TensorPadding.h
+│   │   │   │   │   │   │   │   │   ├── TensorPatch.h
+│   │   │   │   │   │   │   │   │   ├── TensorRandom.h
+│   │   │   │   │   │   │   │   │   ├── TensorReduction.h
+│   │   │   │   │   │   │   │   │   ├── TensorReductionCuda.h
+│   │   │   │   │   │   │   │   │   ├── TensorReductionGpu.h
+│   │   │   │   │   │   │   │   │   ├── TensorReductionSycl.h
+│   │   │   │   │   │   │   │   │   ├── TensorRef.h
+│   │   │   │   │   │   │   │   │   ├── TensorReverse.h
+│   │   │   │   │   │   │   │   │   ├── TensorScan.h
+│   │   │   │   │   │   │   │   │   ├── TensorScanSycl.h
+│   │   │   │   │   │   │   │   │   ├── TensorShuffling.h
+│   │   │   │   │   │   │   │   │   ├── TensorStorage.h
+│   │   │   │   │   │   │   │   │   ├── TensorStriding.h
+│   │   │   │   │   │   │   │   │   ├── TensorTrace.h
+│   │   │   │   │   │   │   │   │   ├── TensorTraits.h
+│   │   │   │   │   │   │   │   │   ├── TensorUInt128.h
+│   │   │   │   │   │   │   │   │   ├── TensorVolumePatch.h
+│   │   │   │   │   │   │   │   ├── TensorSymmetry
+│   │   │   │   │   │   │   │   │   ├── DynamicSymmetry.h
+│   │   │   │   │   │   │   │   │   ├── StaticSymmetry.h
+│   │   │   │   │   │   │   │   │   ├── Symmetry.h
+│   │   │   │   │   │   │   │   │   ├── util
+│   │   │   │   │   │   │   │   │   │   ├── TemplateGroupTheory.h
+│   │   │   │   │   │   │   │   ├── ThreadPool
+│   │   │   │   │   │   │   │   │   ├── Barrier.h
+│   │   │   │   │   │   │   │   │   ├── EventCount.h
+│   │   │   │   │   │   │   │   │   ├── NonBlockingThreadPool.h
+│   │   │   │   │   │   │   │   │   ├── RunQueue.h
+│   │   │   │   │   │   │   │   │   ├── ThreadCancel.h
+│   │   │   │   │   │   │   │   │   ├── ThreadEnvironment.h
+│   │   │   │   │   │   │   │   │   ├── ThreadLocal.h
+│   │   │   │   │   │   │   │   │   ├── ThreadPoolInterface.h
+│   │   │   │   │   │   │   │   │   ├── ThreadYield.h
+│   │   │   │   │   │   │   │   ├── util
+│   │   │   │   │   │   │   │   │   ├── CXX11Meta.h
+│   │   │   │   │   │   │   │   │   ├── CXX11Workarounds.h
+│   │   │   │   │   │   │   │   │   ├── EmulateArray.h
+│   │   │   │   │   │   │   │   │   ├── MaxSizeVector.h
+│   │   │   │   │   │   ├── EulerAngles
+│   │   │   │   │   │   ├── FFT
+│   │   │   │   │   │   ├── IterativeSolvers
+│   │   │   │   │   │   ├── KroneckerProduct
+│   │   │   │   │   │   ├── LevenbergMarquardt
+│   │   │   │   │   │   ├── MPRealSupport
+│   │   │   │   │   │   ├── MatrixFunctions
+│   │   │   │   │   │   ├── MoreVectorization
+│   │   │   │   │   │   ├── NonLinearOptimization
+│   │   │   │   │   │   ├── NumericalDiff
+│   │   │   │   │   │   ├── OpenGLSupport
+│   │   │   │   │   │   ├── Polynomials
+│   │   │   │   │   │   ├── Skyline
+│   │   │   │   │   │   ├── SparseExtra
+│   │   │   │   │   │   ├── SpecialFunctions
+│   │   │   │   │   │   ├── Splines
+│   │   │   │   │   │   ├── src
+│   │   │   │   │   │   │   ├── AutoDiff
+│   │   │   │   │   │   │   │   ├── AutoDiffJacobian.h
+│   │   │   │   │   │   │   │   ├── AutoDiffScalar.h
+│   │   │   │   │   │   │   │   ├── AutoDiffVector.h
+│   │   │   │   │   │   │   ├── BVH
+│   │   │   │   │   │   │   │   ├── BVAlgorithms.h
+│   │   │   │   │   │   │   │   ├── KdBVH.h
+│   │   │   │   │   │   │   ├── Eigenvalues
+│   │   │   │   │   │   │   │   ├── ArpackSelfAdjointEigenSolver.h
+│   │   │   │   │   │   │   ├── EulerAngles
+│   │   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   │   ├── EulerAngles.h
+│   │   │   │   │   │   │   │   ├── EulerSystem.h
+│   │   │   │   │   │   │   ├── FFT
+│   │   │   │   │   │   │   │   ├── ei_fftw_impl.h
+│   │   │   │   │   │   │   │   ├── ei_kissfft_impl.h
+│   │   │   │   │   │   │   ├── IterativeSolvers
+│   │   │   │   │   │   │   │   ├── ConstrainedConjGrad.h
+│   │   │   │   │   │   │   │   ├── DGMRES.h
+│   │   │   │   │   │   │   │   ├── GMRES.h
+│   │   │   │   │   │   │   │   ├── IDRS.h
+│   │   │   │   │   │   │   │   ├── IncompleteLU.h
+│   │   │   │   │   │   │   │   ├── IterationController.h
+│   │   │   │   │   │   │   │   ├── MINRES.h
+│   │   │   │   │   │   │   │   ├── Scaling.h
+│   │   │   │   │   │   │   ├── KroneckerProduct
+│   │   │   │   │   │   │   │   ├── KroneckerTensorProduct.h
+│   │   │   │   │   │   │   ├── LevenbergMarquardt
+│   │   │   │   │   │   │   │   ├── CopyrightMINPACK.txt
+│   │   │   │   │   │   │   │   ├── LMcovar.h
+│   │   │   │   │   │   │   │   ├── LMonestep.h
+│   │   │   │   │   │   │   │   ├── LMpar.h
+│   │   │   │   │   │   │   │   ├── LMqrsolv.h
+│   │   │   │   │   │   │   │   ├── LevenbergMarquardt.h
+│   │   │   │   │   │   │   ├── MatrixFunctions
+│   │   │   │   │   │   │   │   ├── MatrixExponential.h
+│   │   │   │   │   │   │   │   ├── MatrixFunction.h
+│   │   │   │   │   │   │   │   ├── MatrixLogarithm.h
+│   │   │   │   │   │   │   │   ├── MatrixPower.h
+│   │   │   │   │   │   │   │   ├── MatrixSquareRoot.h
+│   │   │   │   │   │   │   │   ├── StemFunction.h
+│   │   │   │   │   │   │   ├── MoreVectorization
+│   │   │   │   │   │   │   │   ├── MathFunctions.h
+│   │   │   │   │   │   │   ├── NonLinearOptimization
+│   │   │   │   │   │   │   │   ├── HybridNonLinearSolver.h
+│   │   │   │   │   │   │   │   ├── LevenbergMarquardt.h
+│   │   │   │   │   │   │   │   ├── chkder.h
+│   │   │   │   │   │   │   │   ├── covar.h
+│   │   │   │   │   │   │   │   ├── dogleg.h
+│   │   │   │   │   │   │   │   ├── fdjac1.h
+│   │   │   │   │   │   │   │   ├── lmpar.h
+│   │   │   │   │   │   │   │   ├── qrsolv.h
+│   │   │   │   │   │   │   │   ├── r1mpyq.h
+│   │   │   │   │   │   │   │   ├── r1updt.h
+│   │   │   │   │   │   │   │   ├── rwupdt.h
+│   │   │   │   │   │   │   ├── NumericalDiff
+│   │   │   │   │   │   │   │   ├── NumericalDiff.h
+│   │   │   │   │   │   │   ├── Polynomials
+│   │   │   │   │   │   │   │   ├── Companion.h
+│   │   │   │   │   │   │   │   ├── PolynomialSolver.h
+│   │   │   │   │   │   │   │   ├── PolynomialUtils.h
+│   │   │   │   │   │   │   ├── Skyline
+│   │   │   │   │   │   │   │   ├── SkylineInplaceLU.h
+│   │   │   │   │   │   │   │   ├── SkylineMatrix.h
+│   │   │   │   │   │   │   │   ├── SkylineMatrixBase.h
+│   │   │   │   │   │   │   │   ├── SkylineProduct.h
+│   │   │   │   │   │   │   │   ├── SkylineStorage.h
+│   │   │   │   │   │   │   │   ├── SkylineUtil.h
+│   │   │   │   │   │   │   ├── SparseExtra
+│   │   │   │   │   │   │   │   ├── BlockOfDynamicSparseMatrix.h
+│   │   │   │   │   │   │   │   ├── BlockSparseMatrix.h
+│   │   │   │   │   │   │   │   ├── DynamicSparseMatrix.h
+│   │   │   │   │   │   │   │   ├── MarketIO.h
+│   │   │   │   │   │   │   │   ├── MatrixMarketIterator.h
+│   │   │   │   │   │   │   │   ├── RandomSetter.h
+│   │   │   │   │   │   │   ├── SpecialFunctions
+│   │   │   │   │   │   │   │   ├── BesselFunctionsArrayAPI.h
+│   │   │   │   │   │   │   │   ├── BesselFunctionsBFloat16.h
+│   │   │   │   │   │   │   │   ├── BesselFunctionsFunctors.h
+│   │   │   │   │   │   │   │   ├── BesselFunctionsHalf.h
+│   │   │   │   │   │   │   │   ├── BesselFunctionsImpl.h
+│   │   │   │   │   │   │   │   ├── BesselFunctionsPacketMath.h
+│   │   │   │   │   │   │   │   ├── HipVectorCompatibility.h
+│   │   │   │   │   │   │   │   ├── SpecialFunctionsArrayAPI.h
+│   │   │   │   │   │   │   │   ├── SpecialFunctionsBFloat16.h
+│   │   │   │   │   │   │   │   ├── SpecialFunctionsFunctors.h
+│   │   │   │   │   │   │   │   ├── SpecialFunctionsHalf.h
+│   │   │   │   │   │   │   │   ├── SpecialFunctionsImpl.h
+│   │   │   │   │   │   │   │   ├── SpecialFunctionsPacketMath.h
+│   │   │   │   │   │   │   │   ├── arch
+│   │   │   │   │   │   │   │   │   ├── AVX
+│   │   │   │   │   │   │   │   │   │   ├── BesselFunctions.h
+│   │   │   │   │   │   │   │   │   │   ├── SpecialFunctions.h
+│   │   │   │   │   │   │   │   │   ├── AVX512
+│   │   │   │   │   │   │   │   │   │   ├── BesselFunctions.h
+│   │   │   │   │   │   │   │   │   │   ├── SpecialFunctions.h
+│   │   │   │   │   │   │   │   │   ├── GPU
+│   │   │   │   │   │   │   │   │   │   ├── SpecialFunctions.h
+│   │   │   │   │   │   │   │   │   ├── NEON
+│   │   │   │   │   │   │   │   │   │   ├── BesselFunctions.h
+│   │   │   │   │   │   │   │   │   │   ├── SpecialFunctions.h
+│   │   │   │   │   │   │   ├── Splines
+│   │   │   │   │   │   │   │   ├── Spline.h
+│   │   │   │   │   │   │   │   ├── SplineFitting.h
+│   │   │   │   │   │   │   │   ├── SplineFwd.h
+│   │   │   │   │   ├── README.txt
+│   │   │   │   │   ├── bench
+│   │   │   │   │   │   ├── bench_svd.cpp
+│   │   │   │   │   ├── doc
+│   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   ├── Overview.dox
+│   │   │   │   │   │   ├── SYCL.dox
+│   │   │   │   │   │   ├── eigendoxy_layout.xml.in
+│   │   │   │   │   │   ├── examples
+│   │   │   │   │   │   │   ├── BVH_Example.cpp
+│   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   ├── EulerAngles.cpp
+│   │   │   │   │   │   │   ├── FFT.cpp
+│   │   │   │   │   │   │   ├── MatrixExponential.cpp
+│   │   │   │   │   │   │   ├── MatrixFunction.cpp
+│   │   │   │   │   │   │   ├── MatrixLogarithm.cpp
+│   │   │   │   │   │   │   ├── MatrixPower.cpp
+│   │   │   │   │   │   │   ├── MatrixPower_optimal.cpp
+│   │   │   │   │   │   │   ├── MatrixSine.cpp
+│   │   │   │   │   │   │   ├── MatrixSinh.cpp
+│   │   │   │   │   │   │   ├── MatrixSquareRoot.cpp
+│   │   │   │   │   │   │   ├── PolynomialSolver1.cpp
+│   │   │   │   │   │   │   ├── PolynomialUtils1.cpp
+│   │   │   │   │   │   │   ├── SYCL
+│   │   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   │   │   ├── CwiseMul.cpp
+│   │   │   │   │   │   ├── snippets
+│   │   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   ├── test
+│   │   │   │   │   │   ├── BVH.cpp
+│   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   ├── EulerAngles.cpp
+│   │   │   │   │   │   ├── FFT.cpp
+│   │   │   │   │   │   ├── FFTW.cpp
+│   │   │   │   │   │   ├── NonLinearOptimization.cpp
+│   │   │   │   │   │   ├── NumericalDiff.cpp
+│   │   │   │   │   │   ├── alignedvector3.cpp
+│   │   │   │   │   │   ├── autodiff.cpp
+│   │   │   │   │   │   ├── autodiff_scalar.cpp
+│   │   │   │   │   │   ├── bessel_functions.cpp
+│   │   │   │   │   │   ├── cxx11_eventcount.cpp
+│   │   │   │   │   │   ├── cxx11_maxsizevector.cpp
+│   │   │   │   │   │   ├── cxx11_meta.cpp
+│   │   │   │   │   │   ├── cxx11_non_blocking_thread_pool.cpp
+│   │   │   │   │   │   ├── cxx11_runqueue.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_argmax.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_argmax_gpu.cu
+│   │   │   │   │   │   ├── cxx11_tensor_argmax_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_assign.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_block_access.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_block_eval.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_block_io.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_broadcast_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_broadcasting.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_builtins_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_cast_float16_gpu.cu
+│   │   │   │   │   │   ├── cxx11_tensor_casts.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_chipping.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_chipping_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_comparisons.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_complex_cwise_ops_gpu.cu
+│   │   │   │   │   │   ├── cxx11_tensor_complex_gpu.cu
+│   │   │   │   │   │   ├── cxx11_tensor_concatenation.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_concatenation_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_const.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_contract_gpu.cu
+│   │   │   │   │   │   ├── cxx11_tensor_contract_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_contraction.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_convolution.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_convolution_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_custom_index.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_custom_op.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_custom_op_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_device.cu
+│   │   │   │   │   │   ├── cxx11_tensor_device_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_dimension.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_empty.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_executor.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_expr.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_fft.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_fixed_size.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_forced_eval.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_forced_eval_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_generator.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_generator_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_gpu.cu
+│   │   │   │   │   │   ├── cxx11_tensor_ifft.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_image_op_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_image_patch.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_image_patch_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_index_list.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_inflation.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_inflation_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_intdiv.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_io.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_layout_swap.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_layout_swap_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_lvalue.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_map.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_math.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_math_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_mixed_indices.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_morphing.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_morphing_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_move.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_notification.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_of_complex.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_of_const_values.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_of_float16_gpu.cu
+│   │   │   │   │   │   ├── cxx11_tensor_of_strings.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_padding.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_padding_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_patch.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_patch_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_random.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_random_gpu.cu
+│   │   │   │   │   │   ├── cxx11_tensor_random_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_reduction.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_reduction_gpu.cu
+│   │   │   │   │   │   ├── cxx11_tensor_reduction_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_ref.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_reverse.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_reverse_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_roundings.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_scan.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_scan_gpu.cu
+│   │   │   │   │   │   ├── cxx11_tensor_scan_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_shuffling.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_shuffling_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_simple.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_striding.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_striding_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_sugar.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_sycl.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_symmetry.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_thread_local.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_thread_pool.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_trace.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_uint128.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_volume_patch.cpp
+│   │   │   │   │   │   ├── cxx11_tensor_volume_patch_sycl.cpp
+│   │   │   │   │   │   ├── dgmres.cpp
+│   │   │   │   │   │   ├── forward_adolc.cpp
+│   │   │   │   │   │   ├── gmres.cpp
+│   │   │   │   │   │   ├── idrs.cpp
+│   │   │   │   │   │   ├── kronecker_product.cpp
+│   │   │   │   │   │   ├── levenberg_marquardt.cpp
+│   │   │   │   │   │   ├── matrix_exponential.cpp
+│   │   │   │   │   │   ├── matrix_function.cpp
+│   │   │   │   │   │   ├── matrix_functions.h
+│   │   │   │   │   │   ├── matrix_power.cpp
+│   │   │   │   │   │   ├── matrix_square_root.cpp
+│   │   │   │   │   │   ├── minres.cpp
+│   │   │   │   │   │   ├── mpreal_support.cpp
+│   │   │   │   │   │   ├── openglsupport.cpp
+│   │   │   │   │   │   ├── polynomialsolver.cpp
+│   │   │   │   │   │   ├── polynomialutils.cpp
+│   │   │   │   │   │   ├── sparse_extra.cpp
+│   │   │   │   │   │   ├── special_functions.cpp
+│   │   │   │   │   │   ├── special_packetmath.cpp
+│   │   │   │   │   │   ├── splines.cpp
+│   │   │   ├── skiplist
+│   │   │   │   ├── .benchmarks
+│   │   │   │   │   ├── Darwin-CPython-3.9-64bit
+│   │   │   │   │   │   ├── 0001_964b6ac81486398df76bc599e35ccfd691609fae_20210323_121943.json
+│   │   │   │   │   │   ├── benchmark_floats_20210323_111654.svg
+│   │   │   │   │   │   ├── benchmark_ints_20210323_112028.svg
+│   │   │   │   │   │   ├── benchmark_objects_20210323_112644.svg
+│   │   │   │   ├── .clang-format
+│   │   │   │   ├── .readthedocs.yaml
+│   │   │   │   ├── CMakeLists.txt
+│   │   │   │   ├── HISTORY.md
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── MANIFEST.in
+│   │   │   │   ├── README.md
+│   │   │   │   ├── conftest.py
+│   │   │   │   ├── docs
+│   │   │   │   │   ├── Makefile
+│   │   │   │   │   ├── SkipList.dox
+│   │   │   │   │   ├── source
+│   │   │   │   │   │   ├── README.txt
+│   │   │   │   │   │   ├── api.rst
+│   │   │   │   │   │   ├── biased_coins.rst
+│   │   │   │   │   │   ├── conf.py
+│   │   │   │   │   │   ├── design.rst
+│   │   │   │   │   │   ├── index.rst
+│   │   │   │   │   │   ├── introduction.rst
+│   │   │   │   │   │   ├── performance.rst
+│   │   │   │   │   │   ├── plots
+│   │   │   │   │   │   │   ├── biased_coin_effect.dat
+│   │   │   │   │   │   │   ├── biased_coin_effect.plt
+│   │   │   │   │   │   │   ├── biased_coin_effect.png
+│   │   │   │   │   │   │   ├── biased_coin_effect.svg
+│   │   │   │   │   │   │   ├── biased_coin_effect_size_of.png
+│   │   │   │   │   │   │   ├── biased_coin_effect_size_of.svg
+│   │   │   │   │   │   │   ├── make_plots.sh
+│   │   │   │   │   │   │   ├── perf_at_has.dat
+│   │   │   │   │   │   │   ├── perf_at_has.plt
+│   │   │   │   │   │   │   ├── perf_at_has.png
+│   │   │   │   │   │   │   ├── perf_at_has.svg
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_fixed_size.dat
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_fixed_size.plt
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_fixed_size.png
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_fixed_size.svg
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_sim_rolling_median.dat
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_sim_rolling_median.plt
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_sim_rolling_median.png
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_vari_size.dat
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_vari_size.plt
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_vari_size.png
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_vari_size.svg
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_vs_single.dat
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_vs_single.plt
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_vs_single.png
+│   │   │   │   │   │   │   ├── perf_cpp_threaded_vs_single.svg
+│   │   │   │   │   │   │   ├── perf_height_size.dat
+│   │   │   │   │   │   │   ├── perf_height_size.plt
+│   │   │   │   │   │   │   ├── perf_height_size.png
+│   │   │   │   │   │   │   ├── perf_height_size.svg
+│   │   │   │   │   │   │   ├── perf_index.dat
+│   │   │   │   │   │   │   ├── perf_index.plt
+│   │   │   │   │   │   │   ├── perf_index.png
+│   │   │   │   │   │   │   ├── perf_index.svg
+│   │   │   │   │   │   │   ├── perf_ins_rem_mid.dat
+│   │   │   │   │   │   │   ├── perf_ins_rem_mid.plt
+│   │   │   │   │   │   │   ├── perf_ins_rem_mid.png
+│   │   │   │   │   │   │   ├── perf_ins_rem_mid.svg
+│   │   │   │   │   │   │   ├── perf_py_threaded_sim_rolling_median.dat
+│   │   │   │   │   │   │   ├── perf_py_threaded_sim_rolling_median.plt
+│   │   │   │   │   │   │   ├── perf_py_threaded_sim_rolling_median.png
+│   │   │   │   │   │   │   ├── perf_roll_med_odd_index_wins.dat
+│   │   │   │   │   │   │   ├── perf_roll_med_odd_index_wins.plt
+│   │   │   │   │   │   │   ├── perf_roll_med_odd_index_wins.png
+│   │   │   │   │   │   │   ├── perf_roll_med_odd_index_wins.svg
+│   │   │   │   │   │   │   ├── perf_rolling_median_shared_memory.dat
+│   │   │   │   │   │   │   ├── perf_rolling_median_shared_memory.plt
+│   │   │   │   │   │   │   ├── perf_rolling_median_shared_memory.png
+│   │   │   │   │   │   │   ├── perf_rolling_median_shared_memory_ratio.dat
+│   │   │   │   │   │   │   ├── perf_rolling_median_shared_memory_ratio.plt
+│   │   │   │   │   │   │   ├── perf_rolling_median_shared_memory_ratio.png
+│   │   │   │   │   │   │   ├── perf_rolling_median_shared_memory_ratio_by_col.dat
+│   │   │   │   │   │   │   ├── perf_rolling_median_shared_memory_ratio_by_col.plt
+│   │   │   │   │   │   │   ├── perf_rolling_median_shared_memory_ratio_by_col.png
+│   │   │   │   │   │   │   ├── perf_size_of.dat
+│   │   │   │   │   │   │   ├── perf_size_of.plt
+│   │   │   │   │   │   │   ├── perf_size_of.png
+│   │   │   │   │   │   │   ├── perf_size_of.svg
+│   │   │   │   │   │   ├── reference.rst
+│   │   │   │   │   │   ├── rolling_median.rst
+│   │   │   │   │   │   ├── test_notes.rst
+│   │   │   │   │   │   ├── visualisations
+│   │   │   │   │   │   │   ├── doc_insert.dot
+│   │   │   │   │   │   │   ├── doc_insert.png
+│   │   │   │   │   │   │   ├── doc_insert.svg
+│   │   │   │   │   │   │   ├── doc_insert_12-5_percent.dot
+│   │   │   │   │   │   │   ├── doc_insert_12-5_percent.png
+│   │   │   │   │   │   │   ├── doc_insert_12-5_percent.svg
+│   │   │   │   │   │   │   ├── doc_insert_25_percent.dot
+│   │   │   │   │   │   │   ├── doc_insert_25_percent.png
+│   │   │   │   │   │   │   ├── doc_insert_25_percent.svg
+│   │   │   │   │   │   │   ├── doc_insert_75_percent.dot
+│   │   │   │   │   │   │   ├── doc_insert_75_percent.png
+│   │   │   │   │   │   │   ├── doc_insert_75_percent.svg
+│   │   │   │   │   │   │   ├── doc_insert_remove.dot
+│   │   │   │   │   │   │   ├── doc_insert_remove.png
+│   │   │   │   │   │   │   ├── doc_insert_remove.svg
+│   │   │   │   │   │   │   ├── doc_insert_remove_12-5_percent.dot
+│   │   │   │   │   │   │   ├── doc_insert_remove_12-5_percent.png
+│   │   │   │   │   │   │   ├── doc_insert_remove_12-5_percent.svg
+│   │   │   │   │   │   │   ├── doc_insert_remove_25_percent.dot
+│   │   │   │   │   │   │   ├── doc_insert_remove_25_percent.png
+│   │   │   │   │   │   │   ├── doc_insert_remove_25_percent.svg
+│   │   │   │   │   │   │   ├── doc_insert_remove_75_percent.dot
+│   │   │   │   │   │   │   ├── doc_insert_remove_75_percent.png
+│   │   │   │   │   │   │   ├── doc_insert_remove_75_percent.svg
+│   │   │   │   │   │   │   ├── doc_insert_remove_repeat.dot
+│   │   │   │   │   │   │   ├── doc_insert_remove_repeat.png
+│   │   │   │   │   │   │   ├── doc_insert_remove_repeat.svg
+│   │   │   │   │   │   │   ├── doc_simple.dot
+│   │   │   │   │   │   │   ├── doc_simple.png
+│   │   │   │   │   │   │   ├── doc_simple.svg
+│   │   │   │   │   │   │   ├── doc_simple_py.dot
+│   │   │   │   │   │   │   ├── doc_simple_py.png
+│   │   │   │   │   │   │   ├── doc_simple_py.svg
+│   │   │   │   │   │   │   ├── dot_convert.py
+│   │   │   │   │   │   ├── visualisations.rst
+│   │   │   │   ├── requirements.txt
+│   │   │   │   ├── setup.cfg
+│   │   │   │   ├── setup.py
+│   │   │   │   ├── src
+│   │   │   │   │   ├── cpp
+│   │   │   │   │   │   ├── HeadNode.h
+│   │   │   │   │   │   ├── IntegrityEnums.h
+│   │   │   │   │   │   ├── Node.h
+│   │   │   │   │   │   ├── NodeRefs.h
+│   │   │   │   │   │   ├── RollingMedian.h
+│   │   │   │   │   │   ├── SkipList.cpp
+│   │   │   │   │   │   ├── SkipList.h
+│   │   │   │   │   │   ├── main.cpp
+│   │   │   │   │   │   ├── makefile
+│   │   │   │   │   │   ├── test
+│   │   │   │   │   │   │   ├── test_concurrent.cpp
+│   │   │   │   │   │   │   ├── test_concurrent.h
+│   │   │   │   │   │   │   ├── test_documentation.cpp
+│   │   │   │   │   │   │   ├── test_documentation.h
+│   │   │   │   │   │   │   ├── test_functional.cpp
+│   │   │   │   │   │   │   ├── test_functional.h
+│   │   │   │   │   │   │   ├── test_performance.cpp
+│   │   │   │   │   │   │   ├── test_performance.h
+│   │   │   │   │   │   │   ├── test_print.cpp
+│   │   │   │   │   │   │   ├── test_print.h
+│   │   │   │   │   │   │   ├── test_rolling_median.cpp
+│   │   │   │   │   │   │   ├── test_rolling_median.h
+│   │   │   │   │   ├── cpy
+│   │   │   │   │   │   ├── OrderedStructs.cpp
+│   │   │   │   │   │   ├── OrderedStructs.h
+│   │   │   │   │   │   ├── cOrderedStructs.cpp
+│   │   │   │   │   │   ├── cOrderedStructs.h
+│   │   │   │   │   │   ├── cSkipList.cpp
+│   │   │   │   │   │   ├── cSkipList.h
+│   │   │   │   │   │   ├── cmpPyObject.cpp
+│   │   │   │   │   │   ├── cmpPyObject.h
+│   │   │   │   ├── tests
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── benchmarks
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── test_benchmark_SkipList_floats.py
+│   │   │   │   │   │   ├── test_benchmark_SkipList_ints.py
+│   │   │   │   │   │   ├── test_benchmark_SkipList_objects.py
+│   │   │   │   │   │   ├── test_benchmark_SkipList_threaded.py
+│   │   │   │   │   ├── perf
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── test_perf_SkipList.py
+│   │   │   │   │   ├── unit
+│   │   │   │   │   │   ├── SkipList_common.py
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── _test_rolling_median_shared_memory.py
+│   │   │   │   │   │   ├── compat_23.py
+│   │   │   │   │   │   ├── seed_tree.py
+│   │   │   │   │   │   ├── test_SkipList.py
+│   │   │   │   │   │   ├── test_SkipList_PyObject.py
+│   │   │   │   │   │   ├── test_SkipList_PyObject_threaded.py
+│   │   │   │   │   │   ├── test_SkipList_hypothesis.py
+│   │   │   │   │   │   ├── test_example_introduction.py
+│   │   │   │   │   │   ├── test_rolling_median.py
+│   │   │   │   │   │   ├── test_seed_tree.py
+│   │   │   ├── stl-cpp
+│   │   │   │   ├── CHANGELOG.md
+│   │   │   │   ├── LICENSE-MIT
+│   │   │   │   ├── README.md
+│   │   │   │   ├── UNLICENSE
+│   │   │   │   ├── example
+│   │   │   │   │   ├── main.cpp
+│   │   │   │   ├── include
+│   │   │   │   │   ├── stl.hpp
+│   │   │   │   ├── test
+│   │   │   │   │   ├── main.cpp
+│   │   ├── poetry.lock
+│   │   ├── pyproject.toml
+│   │   ├── src
+│   │   │   ├── coreforecast.cpp
+│   │   │   ├── diff.cpp
+│   │   │   ├── expanding.cpp
+│   │   │   ├── exponentially_weighted.cpp
+│   │   │   ├── grouped_array.cpp
+│   │   │   ├── rolling.cpp
+│   │   │   ├── scalers.cpp
+│   │   │   ├── seasonal.cpp
+│   │   ├── tests
+│   │   │   ├── __init__.py
+│   │   │   ├── conftest.py
+│   │   │   ├── test_expanding.py
+│   │   │   ├── test_exponentially_weighted.py
+│   │   │   ├── test_ga_fns.py
+│   │   │   ├── test_lag_transforms.py
+│   │   │   ├── test_rolling.py
+│   │   │   ├── test_scalers.py
+│   ├── opensource_lib.md
+│   ├── poetry.lock
+│   ├── project_tree.py
+│   ├── pyproject.toml
