@@ -1,0 +1,86 @@
+﻿You are working on an MVP project using Django with Django REST Framework (DRF) for the backend, React for the frontend, and deployment via Heroku and Netlify. 
+The project involves integrating GitHub OAuth, a full-text search system using Django Haystack, and an upload feature for cursor rules.
+
+## General Best Practices:
+- **Code Structure:**  
+  Keep the backend and frontend in separate directories (e.g., `/backend` and `/frontend`).
+- **Naming Conventions:**  
+  Use **snake_case** for variable names and **PascalCase** for class names in Python/Django.  
+  In React, use **camelCase** for variables and **PascalCase** for components.
+- **Function Length:**  
+  Keep functions small and focused, ideally under 50 lines. Break up large functions into smaller ones when necessary.
+- **Documentation:**  
+  Comment key sections of the code to explain the business logic. Always document API endpoints in Django using DRF's built-in schema generation.
+- **Version Control:**  
+  Use **Git** with feature branches for all new features. Make commits small and meaningful, adhering to the commit message format: `[Feature/Fix/Refactor] - Brief description`.
+
+## Technology-Specific Guidelines:
+
+### Backend (Django & DRF):
+- **Django ORM:**  
+  Use Django's ORM for database queries, and ensure indexes are added on frequently queried fields (e.g., `rule_id`, `user_id`, `created_at`).
+- **Django REST Framework (DRF):**  
+  Ensure that API views are organized into function-based views (FBVs) or class-based views (CBVs), depending on complexity. Always use serializers to validate and clean incoming data.
+- **Authentication:**  
+  Use **social-auth-app-django** to implement GitHub OAuth. Always store OAuth tokens in **HttpOnly cookies** to protect them from XSS.
+- **Search Functionality:**  
+  Implement basic search functionality using **Django Haystack** with **Whoosh** as the backend. Use pagination and limit the number of results returned to 100 per query.
+- **File Uploads:**  
+  Use **django-storages** for file uploads. Start with local storage and integrate AWS S3 when scaling.
+
+### Frontend (React & UI Libraries):
+- **React Structure:**  
+  Use **functional components** and **React Hooks**. Keep components focused on one responsibility.
+- **State Management:**  
+  Use **React's Context API** or **Redux** for state management in the frontend. Avoid unnecessary re-renders by using **React.memo** and **useMemo**.
+- **UI Framework:**  
+  Use **Material-UI** or **Tailwind CSS** for styling. Stick to a consistent design system, ensuring UI elements are responsive.
+- **API Integration:**  
+  Use **Axios** or **React Query** to handle API requests. Always handle loading, success, and error states.
+- **Authentication Flow:**  
+  Implement GitHub OAuth login using **JWT** for authentication and store the token securely in **HttpOnly cookies**.
+
+## Security Best Practices:
+- **Sanitize Inputs:**  
+  Always sanitize user inputs to prevent XSS attacks. Use Django's **form validation** and React's **DOMPurify** for cleaning user inputs.
+- **Environment Variables:**  
+  Never hard-code sensitive information like API keys, secrets, or passwords in the codebase. Use environment variables for storing sensitive data.
+- **Data Encryption:**  
+  Always use **HTTPS** for secure communication. Encrypt sensitive data at rest (e.g., passwords) using **Django's built-in encryption tools**.
+- **OAuth Security:**  
+  Use **state tokens** during the GitHub OAuth flow to prevent CSRF attacks. Validate OAuth tokens on every request to ensure they are still valid.
+
+## Performance Optimization:
+- **Lazy Loading:**  
+  Use **React's lazy loading** to load components only when they are needed (e.g., for rule details, or search results). 
+- **Image Optimization:**  
+  Use **next/image** for automatically optimizing images in Next.js, or use responsive image formats like **WebP** for better performance.
+- **Caching:**  
+  Implement caching for frequently accessed data, such as search results or rule details, using **Redis** or **Django's built-in caching framework**.
+
+## Testing Best Practices:
+- **Unit Testing:**  
+  Write unit tests for critical backend API endpoints and frontend components using **Jest** and **React Testing Library**. Aim for 80% code coverage for critical components.
+- **Integration Testing:**  
+  Use **Cypress** for end-to-end (E2E) tests to simulate real user interactions on the frontend (e.g., logging in via OAuth, uploading rules, searching).
+- **Mocking External APIs:**  
+  Use **Nock** or **MSW** for mocking external API calls during tests to ensure consistent results in all environments.
+
+## Code Completeness:
+- **Avoid TODOs:**  
+  Never commit unfinished code with a TODO in the comments. If a feature is incomplete, create a separate issue or feature branch for future work.
+- **Refactor Regularly:**  
+  Ensure code is clean and well-organized. Regularly refactor code to avoid technical debt.
+
+## Version Control and Deployment:
+- **Git Workflow:**  
+  Use Git feature branches for every new feature or bug fix. Perform **code reviews** before merging into `main`.
+- **CI/CD:**  
+  Set up **GitHub Actions** for continuous integration and deployment (CI/CD). Ensure automated tests run on every push and deploy the application to **Heroku** (backend) and **Netlify/Vercel** (frontend).
+- **Deployment Staging:**  
+  Use a **staging environment** to test before pushing changes to production. Ensure all database migrations are properly handled before deployment.
+
+## Final Notes:
+- Always write clean, readable, and maintainable code.
+- Follow these guidelines to maintain consistency and quality across the project.
+- Regularly review and update these rules as the project evolves.
